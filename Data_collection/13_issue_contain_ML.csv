@@ -1,0 +1,1092 @@
+Project Name,Issue URL,issue number,Closed PR that mention,title
+ildoonet/pytorch-gradual-warmup-lr,https://github.com/ildoonet/pytorch-gradual-warmup-lr/issues/1,1,2,"""""""why i got this error when the warmup epoches ends. """""""
+developmentseed/label-maker,https://github.com/developmentseed/label-maker/issues/80,80,82,downloading using a COG and download endpoint results in tiles without an extension
+Spenhouet/tensorboard-aggregator,https://github.com/Spenhouet/tensorboard-aggregator/issues/2,2,7,What if there are no subfolders test/train? 
+beringresearch/ivis,https://github.com/beringresearch/ivis/issues/101,101,106,`NotFittedError` after caching and reloading fitted `Ivis` instance
+aiqm/torchani,https://github.com/aiqm/torchani/issues/103,103,116,[PyTorch dev] Remove `AEVComputer. _combinations`
+aiqm/torchani,https://github.com/aiqm/torchani/issues/251,251,255,Include linear fitting for EnergyShifter 
+aiqm/torchani,https://github.com/aiqm/torchani/issues/20,20,21,use new dataloader API in examples
+aiqm/torchani,https://github.com/aiqm/torchani/issues/343,343,352,Code improvement
+aiqm/torchani,https://github.com/aiqm/torchani/issues/181,181,353,Support tensor.new_full and tensor.new_zeros in JIT and cleanup
+aiqm/torchani,https://github.com/aiqm/torchani/issues/549,549,516 587,CUAEV cuda 11 error
+aiqm/torchani,https://github.com/aiqm/torchani/issues/461,461,462,SpeciesConverter returns species on CPU
+aiqm/torchani,https://github.com/aiqm/torchani/issues/498,498,550,Provide better error message when the dataset is empty
+aiqm/torchani,https://github.com/aiqm/torchani/issues/499,499,500,specify path to ANI2x parameter location
+aiqm/torchani,https://github.com/aiqm/torchani/issues/335,335,341,CUDA support is broken
+aiqm/torchani,https://github.com/aiqm/torchani/issues/17,17,21,Use ignite API to rewrite examples
+aiqm/torchani,https://github.com/aiqm/torchani/issues/518,518,516,CUAEV Torchscript compatible
+aiqm/torchani,https://github.com/aiqm/torchani/issues/522,522,516 565,CUAEV slower than pyaev as molecule size increase to 1000 atoms or more
+aiqm/torchani,https://github.com/aiqm/torchani/issues/113,113,171,python2 inference support
+aiqm/torchani,https://github.com/aiqm/torchani/issues/514,514,515,Depracation: torch.norm is depracated
+aiqm/torchani,https://github.com/aiqm/torchani/issues/305,305,306 307,Make the whole TorchANI exportable through TorchScript
+aiqm/torchani,https://github.com/aiqm/torchani/issues/190,190,191,Change default dtype for ase interface to float64
+aiqm/torchani,https://github.com/aiqm/torchani/issues/485,485,488,Create a test for SAE calculations
+aiqm/torchani,https://github.com/aiqm/torchani/issues/112,112,224,Reduce dependency for inference only applications
+aiqm/torchani,https://github.com/aiqm/torchani/issues/276,276,278,New update in PyTorch break forces
+aiqm/torchani,https://github.com/aiqm/torchani/issues/598,598,602,The conversion of the ANI-2x model to TorchScript fails with PyTorch 1.9
+aiqm/torchani,https://github.com/aiqm/torchani/issues/388,388,389,Documentation on units
+aiqm/torchani,https://github.com/aiqm/torchani/issues/408,408,409,ASE forces incorrect shape for single-atom system
+aiqm/torchani,https://github.com/aiqm/torchani/issues/243,243,245 275 279 280 283,Make torchani's training setup identical to neurochem 
+aiqm/torchani,https://github.com/aiqm/torchani/issues/49,49,52,Add energy shifter as a Module and make it possible to pipeline with others
+aiqm/torchani,https://github.com/aiqm/torchani/issues/595,595,597,CUAEV RuntimeError: CUDA error: an illegal memory access was encountered
+aiqm/torchani,https://github.com/aiqm/torchani/issues/183,183,188,Fix the item support in JIT and clean up TorchANI code
+aiqm/torchani,https://github.com/aiqm/torchani/issues/443,443,548,Split of dataset is not stored in the example training script
+aiqm/torchani,https://github.com/aiqm/torchani/issues/140,140,152,Version tag
+aiqm/torchani,https://github.com/aiqm/torchani/issues/199,199,338,Sum atomic energy in float64?
+aiqm/torchani,https://github.com/aiqm/torchani/issues/618,618,619,cuaev tests fail with pytorch nightly
+aiqm/torchani,https://github.com/aiqm/torchani/issues/511,511,512,Inference with unknown species
+aiqm/torchani,https://github.com/aiqm/torchani/issues/141,141,150,Switch to nightly ignite and clean up codes
+aiqm/torchani,https://github.com/aiqm/torchani/issues/415,415,417,ASE calculator forces+stress simultaneously does not work
+aiqm/torchani,https://github.com/aiqm/torchani/issues/23,23,26,Delete nn.py and create torchani.models to support rich types of models
+aiqm/torchani,https://github.com/aiqm/torchani/issues/614,614,615,__floordiv__ is deprecated since PyTorch 1.9
+aiqm/torchani,https://github.com/aiqm/torchani/issues/182,182,357,Fix dtype of arange in JIT and remove dtype of arange from TorchANI
+labmlai/labml,https://github.com/labmlai/labml/issues/14,14,15,Checkpointing optimizers
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1570,1570,1571,TypeError: analyze_videos() got an unexpected keyword argument 'video'
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1321,1321,1328,Keypoints_only cannot draw skeleton in create_labeled_video
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1593,1593,1690,plotting3D.py does not support Multimode
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1244,1244,1256,Problem when trying to analyze video after I re-trained the network
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1792,1792,1911,Sort videos during inference
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1696,1696,1699,UserGuide seems to have conflicting recommendations
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1290,1290,1297,IndexError in 2.2rc2 when identity: true
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/2107,2107,2114,Manual extraction from previously analyzed videos broken
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1269,1269,1274,video_sets_orginal gets overwritten when cropping new videos while excluding already cropped videos
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1005,1005,1069,which Snapshot to pick in MultiAnimal project
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1300,1300,1314,create_training_model_comparison confused by training split 93%
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1818,1818,1819,ZeroDivisionError when analyze videos
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1583,1583,1597,Import issue with headless and GUI usage on the same machine
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/2086,2086,2088,Model zoo google colab: full_human package huggingface URL has been change
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1901,1901,1924,extract_outlier_frames should not move videos
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1110,1110,1116,index error after saving labels and going to next frame
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1852,1852,1859,No CSV file created during deeplabcut.analyze_videos()
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1608,1608,1614,Deeplabcut evaluate network
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1235,1235,1240,video_processor.py FPS value is unused
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1673,1673,1763,Error in creating training dataset after refining outliers
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1624,1624,1690,Undistortion error during triangulation
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1222,1222,1275,IndexError happen at a project with identity=true & uniquebodyparts in 2.2rc1
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1832,1832,1835,Can't create video by filtered file.[No filtered data file found in......]
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1941,1941,1954,v2.2.1.1: 3D scorer name is written incorrectly into the resulting 3D.h5 file
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1193,1193,1195,KeyError: 'No object named df_with_missing in the file' (filterpredictions)
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/2006,2006,2007,Failing tests on github and local run `./test.sh`
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1743,1743,1763,TypeError when using Refine Outliers
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1981,1981,1982,NumPy 1.23 dropped `numpy.asscalar`
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1775,1775,1788,Error in: find_outliers_in_raw_data
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1260,1260,1270,Unable to reconstruct tracks from tracklets given. 
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1124,1124,1126,pip install downloads many versions of opencv (with 3.8 python)
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1574,1574,1582,Possible typo in outlier_frames. compute_deviations()
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1996,1996,2025,Analyse videos not working on Go Pro video
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1646,1646,1653,Restarting a training is not following the lr pattern laid out in multiple-step
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/2046,2046,2051,napari load_settings TypeError: 'NoneType' object is not iterable
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1693,1693,1711,Empty tracklets
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1548,1548,1730,Usage as a library
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1636,1636,1647,merge_datasets and/or create_training_dataset bug with projects/folder structure
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/2036,2036,2040,Cannot use individual video crops for refinement?
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1821,1821,1822,issue running transformer_reID
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1552,1552,1561, single point tracking in maDLC
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1682,1682,1686,Intel OpenVINO backend
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1378,1378,1381,create_video_with_all_detections does not accept a listed path to a folder containing videos
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1006,1006,1059,ValueError: array must not contain infs or NaNs
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1084,1084,1171,evaluation problems with cropped trainingset when individual1 is empty
+DeepLabCut/DeepLabCut,https://github.com/DeepLabCut/DeepLabCut/issues/1528,1528,1529,skimage resize for paf
+marl/openl3,https://github.com/marl/openl3/issues/71,71,72,API docs broken
+marl/openl3,https://github.com/marl/openl3/issues/85,85,86,Breaks with librosa 0.9.x
+marl/openl3,https://github.com/marl/openl3/issues/69,69,74,Add function to API for loading custom model weights
+marl/openl3,https://github.com/marl/openl3/issues/73,73,72 75,"""""""skimage submodules not imported correctly regression tests fail"""""""
+HazyResearch/fonduer,https://github.com/HazyResearch/fonduer/issues/227,227,230,Not compatible with spaCy v2.1.0
+HazyResearch/fonduer,https://github.com/HazyResearch/fonduer/issues/56,56,59 64,Refactor codebase into submodules for each pipeline phase
+HazyResearch/fonduer,https://github.com/HazyResearch/fonduer/issues/270,270,492,"""""""RegexMatchSpan with sep="""""""""""""""" concatenates words with sep=""""""""(space)"""""""""""""""
+HazyResearch/fonduer,https://github.com/HazyResearch/fonduer/issues/66,66,149 356,Refactor docstrings and enforce using flake8-docstrings
+HazyResearch/fonduer,https://github.com/HazyResearch/fonduer/issues/27,27,44,Switch to logging in Fonduer.
+HazyResearch/fonduer,https://github.com/HazyResearch/fonduer/issues/104,104,130,Add japanese tokenization support
+HazyResearch/fonduer,https://github.com/HazyResearch/fonduer/issues/259,259,343 407,Serializable Fonduer model
+HazyResearch/fonduer,https://github.com/HazyResearch/fonduer/issues/310,310,320,Make -1 as abstain to be consistent with snorkel v0.9.0
+HazyResearch/fonduer,https://github.com/HazyResearch/fonduer/issues/311,311,319 329,"""""""So many """"""""e2e/test_e2e.py::test_e2e"""""""" log messages during pytest"""""""
+HazyResearch/fonduer,https://github.com/HazyResearch/fonduer/issues/29,29,44,Move all snorkel code directly into Fonduer. 
+HazyResearch/fonduer,https://github.com/HazyResearch/fonduer/issues/290,290,291 296 313 354 367,Type hints
+HazyResearch/fonduer,https://github.com/HazyResearch/fonduer/issues/422,422,427,"""""""Remove redundant """""""":type"""""""" and """""""":rtype"""""""" information from the docstring"""""""
+HazyResearch/fonduer,https://github.com/HazyResearch/fonduer/issues/161,161,165,`longest_match_only` default value in `Matcher` subclasses
+HazyResearch/fonduer,https://github.com/HazyResearch/fonduer/issues/474,474,475,make check fails because of an isort's breaking change
+HazyResearch/fonduer,https://github.com/HazyResearch/fonduer/issues/19,19,20,Make fonduer a pip-installable package
+HazyResearch/fonduer,https://github.com/HazyResearch/fonduer/issues/229,229,230,Travis CI job takes longer than the 50 minutes limit
+HazyResearch/fonduer,https://github.com/HazyResearch/fonduer/issues/35,35,44,"""""""Scrub code related to sqlite which is unsupported in fonduer"""""""
+onnx/sklearn-onnx,https://github.com/onnx/sklearn-onnx/issues/712,712,713 714 723,I am facing issues in converting Random forest with complex pipelines 
+onnx/sklearn-onnx,https://github.com/onnx/sklearn-onnx/issues/670,670,677,please include type hint at least in the tutorial/documentation
+onnx/sklearn-onnx,https://github.com/onnx/sklearn-onnx/issues/671,671,676,Sklearn LR predictions differ from onnx predictions (example present in current documentation)
+onnx/sklearn-onnx,https://github.com/onnx/sklearn-onnx/issues/254,254,258,Adaboost classifier and regressor throw error with non-default base_estimator hyper-parameter
+onnx/sklearn-onnx,https://github.com/onnx/sklearn-onnx/issues/370,370,444,OneVsRestClassifier decision function scores
+stared/livelossplot,https://github.com/stared/livelossplot/issues/7,7,8,Plotting all history points when using fit_generator
+stared/livelossplot,https://github.com/stared/livelossplot/issues/56,56,59 92,PlotLossesKeras has an issue with 'lr'
+stared/livelossplot,https://github.com/stared/livelossplot/issues/37,37,38,"""""""""""""""'Module' object has no attribute 'callbacks'"""""""""""""""
+stared/livelossplot,https://github.com/stared/livelossplot/issues/10,10,11,"""""""Handling more than one output but only one loss"""""""
+stared/livelossplot,https://github.com/stared/livelossplot/issues/113,113,120,Setup outputs as str
+stared/livelossplot,https://github.com/stared/livelossplot/issues/3,3,24,PlotLossesKeras not working due to TypeError
+stared/livelossplot,https://github.com/stared/livelossplot/issues/75,75,77,Cannot log to Tensorboard because of automatic folder name
+diffgram/diffgram,https://github.com/diffgram/diffgram/issues/632,632,669,Python coding style choices
+GantMan/nsfw_model,https://github.com/GantMan/nsfw_model/issues/103,103,104,Windows Bug - Setting the Compile Flag to False when Loading Model
+GantMan/nsfw_model,https://github.com/GantMan/nsfw_model/issues/20,20,21,Training with mobilenet?
+GantMan/nsfw_model,https://github.com/GantMan/nsfw_model/issues/1,1,3 4,Make project easy to setup
+GantMan/nsfw_model,https://github.com/GantMan/nsfw_model/issues/55,55,58,New version is broken
+mozilla/bugbug,https://github.com/mozilla/bugbug/issues/152,152,175,Add 'reviewer experience' as feature
+mozilla/bugbug,https://github.com/mozilla/bugbug/issues/187,187,188,Author and reviewer experience should ignore backouts
+mozilla/bugbug,https://github.com/mozilla/bugbug/issues/427,427,441,Add stepstoreproduce training task
+mozilla/bugbug,https://github.com/mozilla/bugbug/issues/127,127,130,Add bug alias as a feature
+mozilla/bugbug,https://github.com/mozilla/bugbug/issues/367,367,341 398,Create a module listing all models
+mozilla/bugbug,https://github.com/mozilla/bugbug/issues/278,278,301,Add number of previous commits touching the same directories as a feature
+mozilla/bugbug,https://github.com/mozilla/bugbug/issues/18,18,449,Create a classifier to detect regression bugs that have no regression range
+molecularsets/moses,https://github.com/molecularsets/moses/issues/71,71,72,"""""""The --ks option for script/eval.py should add """"""""type=int""""""""?"""""""
+molecularsets/moses,https://github.com/molecularsets/moses/issues/28,28,29,Rewrite FCDMetric using fcd_torch
+molecularsets/moses,https://github.com/molecularsets/moses/issues/12,12,23,Remove globals() from run scripts and relative imports
+brendanhasz/probflow,https://github.com/brendanhasz/probflow/issues/20,20,54,Bayesian update method
+brendanhasz/probflow,https://github.com/brendanhasz/probflow/issues/21,21,39,Multiple MC samples per batch
+brendanhasz/probflow,https://github.com/brendanhasz/probflow/issues/10,10,53,Allow learning rate to be changed w/ PyTorch
+brendanhasz/probflow,https://github.com/brendanhasz/probflow/issues/28,28,29,Requires tensorflow installed even if you not using it as the backend.
+brendanhasz/probflow,https://github.com/brendanhasz/probflow/issues/34,34,37,Add flipout support for PyTorch
+brendanhasz/probflow,https://github.com/brendanhasz/probflow/issues/18,18,31,"""""""Probabilistic option for Dense DenseNetwork Embedding and BatchNormalization"""""""
+brendanhasz/probflow,https://github.com/brendanhasz/probflow/issues/38,38,41,Add batch_norm kwarg to DenseNetwork
+brendanhasz/probflow,https://github.com/brendanhasz/probflow/issues/19,19,46,Centered parameter using QR reparameterization
+brendanhasz/probflow,https://github.com/brendanhasz/probflow/issues/9,9,40,PyTorch mixture distribution
+brendanhasz/probflow,https://github.com/brendanhasz/probflow/issues/35,35,36,Refactor tests
+hackingmaterials/automatminer,https://github.com/hackingmaterials/automatminer/issues/230,230,246,Add warning for mismatched versions of automatminer on save/load
+hackingmaterials/automatminer,https://github.com/hackingmaterials/automatminer/issues/226,226,246,"""""""Autofeaturizer caching needs to use matminer utils not pd.json"""""""
+hackingmaterials/automatminer,https://github.com/hackingmaterials/automatminer/issues/231,231,246,Automatminer save/load needs more robust test
+hackingmaterials/automatminer,https://github.com/hackingmaterials/automatminer/issues/216,216,246,Docs suck
+hackingmaterials/automatminer,https://github.com/hackingmaterials/automatminer/issues/241,241,246,Pipeline save/load with TPOT backend doesn't attrs in intuitive way
+hackingmaterials/automatminer,https://github.com/hackingmaterials/automatminer/issues/221,221,246,Change or add to digest to make it easier to read
+hackingmaterials/automatminer,https://github.com/hackingmaterials/automatminer/issues/234,234,246,MatPipe.load should refuse to load from class instance
+hackingmaterials/automatminer,https://github.com/hackingmaterials/automatminer/issues/239,239,246,More pipeline diagnostics
+hackingmaterials/automatminer,https://github.com/hackingmaterials/automatminer/issues/204,204,243 246,initialize_logger has confusing arguments
+hackingmaterials/automatminer,https://github.com/hackingmaterials/automatminer/issues/253,253,254 255,TypeError: can't pickle _thread.RLock objects when saving a pipe
+hackingmaterials/automatminer,https://github.com/hackingmaterials/automatminer/issues/228,228,246,Make it easier to ignore entire columns but keep them in returned df
+hackingmaterials/automatminer,https://github.com/hackingmaterials/automatminer/issues/208,208,245 246,Enforce a code style
+hackingmaterials/automatminer,https://github.com/hackingmaterials/automatminer/issues/199,199,246,Add warning when large numbers of samples imputed/handled
+hackingmaterials/automatminer,https://github.com/hackingmaterials/automatminer/issues/232,232,246,Add .from_preset method to MatPipe
+hackingmaterials/automatminer,https://github.com/hackingmaterials/automatminer/issues/229,229,246,Fix requirements
+hackingmaterials/automatminer,https://github.com/hackingmaterials/automatminer/issues/205,205,246,rm /tutorials and add to matminer_examples
+hackingmaterials/automatminer,https://github.com/hackingmaterials/automatminer/issues/244,244,246,Code docs need overhaul
+HunterMcGushion/hyperparameter_hunter,https://github.com/HunterMcGushion/hyperparameter_hunter/issues/98,98,119,Rename lengthy `Environment` parameters
+HunterMcGushion/hyperparameter_hunter,https://github.com/HunterMcGushion/hyperparameter_hunter/issues/77,77,76,Update `lambda_callback` to automatically handle return values
+HunterMcGushion/hyperparameter_hunter,https://github.com/HunterMcGushion/hyperparameter_hunter/issues/47,47,76,`AggregatorEpochsElapsed` breaks with repeated CV schemes
+HunterMcGushion/hyperparameter_hunter,https://github.com/HunterMcGushion/hyperparameter_hunter/issues/88,88,89,hyperparameter space issue
+HunterMcGushion/hyperparameter_hunter,https://github.com/HunterMcGushion/hyperparameter_hunter/issues/93,93,94,HPH Regression?
+HunterMcGushion/hyperparameter_hunter,https://github.com/HunterMcGushion/hyperparameter_hunter/issues/69,69,76,Add callback recipes
+HunterMcGushion/hyperparameter_hunter,https://github.com/HunterMcGushion/hyperparameter_hunter/issues/90,90,95,logloss issue...
+HunterMcGushion/hyperparameter_hunter,https://github.com/HunterMcGushion/hyperparameter_hunter/issues/111,111,118,Keras optimization issue
+HunterMcGushion/hyperparameter_hunter,https://github.com/HunterMcGushion/hyperparameter_hunter/issues/25,25,86,UninformedOptimizationProtocols need `current_hyperparameters_list`
+HunterMcGushion/hyperparameter_hunter,https://github.com/HunterMcGushion/hyperparameter_hunter/issues/33,33,86,Documentation for `optimization_core.UninformedOptimizationProtocol`
+HunterMcGushion/hyperparameter_hunter,https://github.com/HunterMcGushion/hyperparameter_hunter/issues/34,34,91,`tell` optimizer positive/negative utility values depending on `target_metric`
+HunterMcGushion/hyperparameter_hunter,https://github.com/HunterMcGushion/hyperparameter_hunter/issues/80,80,79 84,CatBoost can't handle both silent and verbose switches.
+HunterMcGushion/hyperparameter_hunter,https://github.com/HunterMcGushion/hyperparameter_hunter/issues/78,78,79 81 83,Using holdout set results in ValueError.
+HunterMcGushion/hyperparameter_hunter,https://github.com/HunterMcGushion/hyperparameter_hunter/issues/19,19,76,Confusion matrix using `lambda_callback`
+mila-iqia/babyai,https://github.com/mila-iqia/babyai/issues/16,16,18,get rid of GoToAdjPos
+mila-iqia/babyai,https://github.com/mila-iqia/babyai/issues/37,37,38,Make train_intelligent_expert.py resumable
+mila-iqia/babyai,https://github.com/mila-iqia/babyai/issues/28,28,30,support Python reference as an argument in GoNextTo
+mila-iqia/babyai,https://github.com/mila-iqia/babyai/issues/29,29,31 36,go straight for the key when you head for locked door
+mila-iqia/babyai,https://github.com/mila-iqia/babyai/issues/14,14,13,looking for very very blocked objects
+mila-iqia/babyai,https://github.com/mila-iqia/babyai/issues/23,23,24,reseed the rng for every mission when generating demos
+sksq96/pytorch-summary,https://github.com/sksq96/pytorch-summary/issues/99,99,100,Interface for providing string summary
+sksq96/pytorch-summary,https://github.com/sksq96/pytorch-summary/issues/4,4,10,"""""""ValueError: Expected more than 1 value per channel when training got input size [1 256]"""""""
+qubvel/efficientnet,https://github.com/qubvel/efficientnet/issues/135,135,130,The drop connect rate (aka survival rate) is incorrect
+qubvel/efficientnet,https://github.com/qubvel/efficientnet/issues/60,60,130,[tf 2.0] efficientnetB7 - Large dropout rate
+qubvel/efficientnet,https://github.com/qubvel/efficientnet/issues/51,51,52,inference errors when loading models due to backend.backend()
+qubvel/efficientnet,https://github.com/qubvel/efficientnet/issues/127,127,128,AttributeError: module 'keras.utils' has no attribute 'generic_utils'
+qubvel/efficientnet,https://github.com/qubvel/efficientnet/issues/55,55,56,New weights available 
+netrack/keras-metrics,https://github.com/netrack/keras-metrics/issues/13,13,25,load_model problem
+netrack/keras-metrics,https://github.com/netrack/keras-metrics/issues/3,3,4 5,Binary classification with 2 units gives wrong precision and recall
+netrack/keras-metrics,https://github.com/netrack/keras-metrics/issues/22,22,23,"""""""""""""""ValueError: too many values to unpack (expected 2)"""""""" on using precision and recall metrics for binary segmentation"""""""
+netrack/keras-metrics,https://github.com/netrack/keras-metrics/issues/18,18,19,What does the `reset_states` do?
+netrack/keras-metrics,https://github.com/netrack/keras-metrics/issues/14,14,15,f1_score: nan
+hujinsen/StarGAN-Voice-Conversion,https://github.com/hujinsen/StarGAN-Voice-Conversion/issues/20,20,22,Do not use os.path.join and str.split('/') both
+hujinsen/StarGAN-Voice-Conversion,https://github.com/hujinsen/StarGAN-Voice-Conversion/issues/24,24,25,AttributeError: module 'posixpath' has no attribute 'normpaths'
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/396,396,405,Fix visualization for single-class mode
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/115,115,133,Bug with visualization
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/142,142,208,Remove OpenCV dependency
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/292,292,294,"""""""Model_choice.py: refactor model loss and optimizer instantiation and loading"""""""
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/154,154,191,Save hyperparameters in checkpoint.pth
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/380,380,384,[BUG] AOI: cannot write multiband destination raster in __init__()
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/103,103,329,Automated testing and code coverage
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/251,251,253,Reimplement target_ids
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/98,98,112,Mismatch between values for number of classes?
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/77,77,95,Migrate to PyTorch 1.2
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/61,61,62,"""""""Sync/cp of log files fails with AWS cli due to """""""":"""""""" in the filename"""""""
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/36,36,37,Import torch order
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/288,288,289,"""""""Remove unused and unadapted model architecture: TernausNet FCN_resnet etc."""""""
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/271,271,273,Refactor: manage tracker initialization with set_tracker() function
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/57,57,64,Add a Validation for the Number of Classes in Classification Tasks
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/420,420,421,aois_from_csv: progress bar doesn't show total length
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/82,82,208,CoordConv and spatial resolution
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/6,6,30,Add classification capacity
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/359,359,374,[feature request] raster enhancement: add CLAHE enhancement option to AOI
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/83,83,96,Multi GPU support
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/319,319,323,AOI creation: check % overlap between raster and label bounds
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/362,362,364,problems with VRT Dataset Output  
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/246,246,261 256 295,Model choice: maximize Hydra's features
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/138,138,270,Update data_analysis.py according to last devs on gdl
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/99,99,100,Class metric log file name
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/179,179,208,train_classification.py
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/381,381,386,Solaris library: replace and remove
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/293,293,295,Hydra: Create optimizer using instantiate()
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/47,47,48,AWS - Entity too large when calling the PutObject operation
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/10,10,19,Add the choice of model in config file
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/220,220,239 248,Deprecation: CoordConv & Spatial Resolution as training layer
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/125,125,147,Experiment tracking
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/349,349,357,Checkpoint: add tests to updating utility
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/84,84,89,Receptive field calculated from max pooling layers
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/390,390,407,AOI creation fails with empty gpkg
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/410,410,425,AOI's bounds iou: better metric(s) to validate overlap between imagery and ground truth
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/312,312,341,Multiband rasters as input: improve band selection
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/200,200,367,Clean and faster RadiometricTrim
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/168,168,175,Visualization should set random shuffle to false
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/305,305,308 387,Deprecation: boto support for tiling and inference
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/190,190,345,Allow float in min_annotated_percent
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/27,27,28,Allow data_path and bucket_name in the config file
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/313,313,314,Sampling (tiling): remove mask image feature
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/411,411,414 413,[bug] create_new_raster_from_base (utils/geoutils.py): bug if output array is singleband
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/283,283,344,Replace Pynvml utilities with torch.cuda's utils
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/1,1,15,Set up a CI/test environment
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/85,85,93,Modification of values in input image based on annotation's mask
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/221,221,304,Csv as input for sampling and inference: format needs update
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/108,108,112,Enhancement: Train without test data
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/333,333,334,Close memmap file in inference (fix for windows)
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/260,260,263,Reimplement classification task
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/11,11,22 89 149,Manage discontinuities when classifying
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/166,166,191,Inference: Key error
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/189,189,181 208,config_template.yaml: default values should lead to good baseline model
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/131,131,133,Rotate function for augmentation introducing values in map_img during extrapolation
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/86,86,91,Replace 'Remove_background' bool for int
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/127,127,133,Pre-processing Developments
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/90,90,91,Add a 'test' dataset in data preparation and training
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/222,222,270 335 437,Reading training and inference rasters from STAC item list: input as json
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/53,53,58,Image_classification.py refactoring
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/330,330,331,Broken conda environment
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/326,326,327,AOI: cannot pickle for multiprocessing
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/12,12,19,Transfer learning
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/371,371,372,"""""""bug: error at train when requested bands are integers not strings"""""""
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/65,65,66,Error using images_to_samples.py with 1 band input images
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/428,428,430,[feature requested] Tiling: detect and skip pre-existing patches during new execution of tiling if previous raised error
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/351,351,358,torchmetrics error with Multi GPU and Data Parrallel
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/412,412,413,[bug] create_new_raster_from_base (utils/geoutils.py) should raise ValueError if output array has different shape than input raster
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/404,404,405,Incorrect band subsetting for the multiband raster
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/111,111,112,Replace samples_dist for overlap percent
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/110,110,149,Inference: cannot infer on large images (>3Gb)
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/311,311,315,"""""""Sampling (tiling): remove """"""""clip raster by ground truth bounds"""""""" feature"""""""
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/25,25,26,Switch vector file format from shp to GeoPackage
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/215,215,315 343,Images_to_samples.py (hdf5s) --> data_to_tiles.py (tiles as tifs and geojsons)
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/242,242,291,"""""""Extend CI testing with more """"""""smoke tests"""""""""""""""
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/33,33,64,Parametrize 'arch' when saving checkpoints in train_model.py
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/370,370,373,bug: wrong parameter name in train_segmentation.py
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/52,52,67 149,"""""""""""""""sqlite3_open"""""""" error whith geopackage"""""""
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/223,223,270 309 318,Reading single-band rasters: unified approach with multiband reader
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/433,433,434,test_aoi.py: test_for_multiprocessing.py causing error during Github CI actions
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/68,68,133,NaN values in input images
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/188,188,268,target_size parameter: prone to confusion
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/183,183,298,Inference: run inference without yaml
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/438,438,439,Inference_Segmentation: edge problems with smoothening
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/382,382,383,Solaris: copy loading utilities to GDL and remove use of solaris' ones
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/269,269,272,Refactor: manage device selection and error-handling (HPC) with set_device function
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/394,394,427,Fix evaluate function for single-class mode
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/249,249,259,Separate inference and benchmark (aka evaluate) modules
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/422,422,424,AOI's to_dict() method contains newline and blank spaces from raster's metadata (outputted by rasterio)
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/79,79,100,Expose loss and optimization functions in config file
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/265,265,270 274 276,Inference: refactoring needed
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/320,320,328,AOI creation: write quality assessment report
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/399,399,400,Conforming to torchgeo: move create_dataset.py to datasets/ directory
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/264,264,266,CI: shrink inference data
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/321,321,325,AOI creation: read radiometric stats from raster's stac item or optionally calculate
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/225,225,226,Conda environment.yml: more flexible versions for minor dependencies
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/360,360,361,Bug: Error when loading csv without label
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/177,177,181 191,"""""""Repeatability: in config yaml add git tag associated with the version of GDL being used for train"""""""
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/78,78,95,Expose data augmentation functions in config file
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/81,81,100,Loading pretrained model with different number of classes
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/423,423,424,"""""""Verify report: excel detects comas in csv as delimiter whereas semi-colon should be used """""""
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/395,395,427,Fix evaluate function for multi-class mode
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/157,157,208,"""""""At inference GDL shouldn't load pretrained weights if a .pth is provided to load weights from."""""""
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/317,317,318,Add support for checkpoints and imagery as URLs 
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/213,213,238,Inference: fix progress bar
+NRCan/geo-deep-learning,https://github.com/NRCan/geo-deep-learning/issues/35,35,37,GDAL 2.2.2 import error
+mikgroup/sigpy,https://github.com/mikgroup/sigpy/issues/77,77,78,"""""""Cupy failed import should not be a exception but a warning"""""""
+mikgroup/sigpy,https://github.com/mikgroup/sigpy/issues/100,100,101,"""""""Cupy cudnn and nccl failed imports should be a warning not exception"""""""
+justinshenk/fer,https://github.com/justinshenk/fer/issues/7,7,8,TensorFlow 2.0 has no attribute 'ConfigProto'; fix proposed
+otenim/GLCIC-PyTorch,https://github.com/otenim/GLCIC-PyTorch/issues/16,16,17,Why is the original image blended with the output?
+dbiir/UER-py,https://github.com/dbiir/UER-py/issues/314,314,315,Is the [SEP] token missing here at the end?
+Acellera/moleculekit,https://github.com/Acellera/moleculekit/issues/4,4,15,Tutorial on voxelization and ML
+ikostrikov/pytorch-flows,https://github.com/ikostrikov/pytorch-flows/issues/4,4,5,Glow on GAS with NaN validation error
+PIQuIL/QuCumber,https://github.com/PIQuIL/QuCumber/issues/57,57,75,Potential Slow Operations
+PIQuIL/QuCumber,https://github.com/PIQuIL/QuCumber/issues/6,6,13,Allow None value for RBM initial random seed
+PIQuIL/QuCumber,https://github.com/PIQuIL/QuCumber/issues/7,7,13,Refactor RBM classes
+PIQuIL/QuCumber,https://github.com/PIQuIL/QuCumber/issues/56,56,74,Improve Unit Tests
+PIQuIL/QuCumber,https://github.com/PIQuIL/QuCumber/issues/118,118,119,Optimize computation of mean and variance in Observable.statistics_from_samples function
+PIQuIL/QuCumber,https://github.com/PIQuIL/QuCumber/issues/102,102,105,Add metadata field to NeuralStates
+PIQuIL/QuCumber,https://github.com/PIQuIL/QuCumber/issues/30,30,31,Observables don't sample efficiently
+PIQuIL/QuCumber,https://github.com/PIQuIL/QuCumber/issues/70,70,74,[update notes]
+PIQuIL/QuCumber,https://github.com/PIQuIL/QuCumber/issues/93,93,99,Update CI
+PIQuIL/QuCumber,https://github.com/PIQuIL/QuCumber/issues/11,11,13,Fix Gradients
+PIQuIL/QuCumber,https://github.com/PIQuIL/QuCumber/issues/12,12,13,Tutorials
+PIQuIL/QuCumber,https://github.com/PIQuIL/QuCumber/issues/73,73,76,v1.0 release tracking issue
+PIQuIL/QuCumber,https://github.com/PIQuIL/QuCumber/issues/101,101,104,Allow passing an initial_state to Observable statistics function
+PIQuIL/QuCumber,https://github.com/PIQuIL/QuCumber/issues/18,18,22,Bug in model loading function
+PIQuIL/QuCumber,https://github.com/PIQuIL/QuCumber/issues/5,5,13,Make a package
+PIQuIL/QuCumber,https://github.com/PIQuIL/QuCumber/issues/19,19,21,Fix Memory Leak in Gibbs Sampling
+PIQuIL/QuCumber,https://github.com/PIQuIL/QuCumber/issues/9,9,10,Fix Sphinx
+codertimo/BERT-pytorch,https://github.com/codertimo/BERT-pytorch/issues/10,10,14,imbalance GPU memory usage
+onnx/onnxmltools,https://github.com/onnx/onnxmltools/issues/482,482,491,convert_lightgbm appears to be stuck in an infinite loop for a multiclass model
+onnx/onnxmltools,https://github.com/onnx/onnxmltools/issues/37,37,38,Keras Parser and Supported Keras Versions
+onnx/onnxmltools,https://github.com/onnx/onnxmltools/issues/495,495,497,Can onnxmltool add support for shape override in onnxmltools.convert_tensorflow?
+onnx/onnxmltools,https://github.com/onnx/onnxmltools/issues/417,417,418,Fixing API changes in Hummingbird
+onnx/onnxmltools,https://github.com/onnx/onnxmltools/issues/66,66,74,Update Doc to Include Keras
+onnx/onnxmltools,https://github.com/onnx/onnxmltools/issues/165,165,188,keras.layers.advanced_activations.ReLU conversion fails
+onnx/onnxmltools,https://github.com/onnx/onnxmltools/issues/85,85,88,Missing Attribute in GBR
+onnx/onnxmltools,https://github.com/onnx/onnxmltools/issues/124,124,126,Unsupported shape calculation for operator Dropout
+onnx/onnxmltools,https://github.com/onnx/onnxmltools/issues/50,50,70,Missing Keras Bidirectional LSTM Converter
+onnx/onnxmltools,https://github.com/onnx/onnxmltools/issues/69,69,71,RNN/GRU/LSTM Operator Version Needs to Be Updated
+onnx/onnxmltools,https://github.com/onnx/onnxmltools/issues/214,214,217,An error (Elu function) occured while loading model with winmltools which uses onnxmltools.
+onnx/onnxmltools,https://github.com/onnx/onnxmltools/issues/48,48,49,Incorrect error message while converting model to onnx format
+onnx/onnxmltools,https://github.com/onnx/onnxmltools/issues/68,68,74,Update Doc for Newly Added scikit-learn Converters
+onnx/onnxmltools,https://github.com/onnx/onnxmltools/issues/87,87,88,Gemm operator set is 7 in ONNX-1.2
+onnx/onnxmltools,https://github.com/onnx/onnxmltools/issues/55,55,56,Version String Conflicts after ONNX master moves to ONNX-1.2
+onnx/onnxmltools,https://github.com/onnx/onnxmltools/issues/78,78,80,Need to Add Reshape Before GEMM in CoreML Converter
+onnx/onnxmltools,https://github.com/onnx/onnxmltools/issues/403,403,404,LightGBM converter integration with Hummingbird
+onnx/onnxmltools,https://github.com/onnx/onnxmltools/issues/287,287,320,Should we have a separate package for onnxconverter-common?
+onnx/onnxmltools,https://github.com/onnx/onnxmltools/issues/317,317,318,convert_xgboost not exposed
+theislab/scgen,https://github.com/theislab/scgen/issues/53,53,54,TypeError: Can't instantiate abstract class SCGEN with abstract methods setup_anndata
+theislab/scgen,https://github.com/theislab/scgen/issues/55,55,54,Update LossRecorder return
+neo-ai/neo-ai-dlr,https://github.com/neo-ai/neo-ai-dlr/issues/46,46,47,[RFC] Support alternative runtimes
+ProGamerGov/neural-style-pt,https://github.com/ProGamerGov/neural-style-pt/issues/26,26,84,Problem with channel_pruning and other models
+ProGamerGov/neural-style-pt,https://github.com/ProGamerGov/neural-style-pt/issues/2,2,20,Multigpu Capability
+ProGamerGov/neural-style-pt,https://github.com/ProGamerGov/neural-style-pt/issues/64,64,65,Access forbidden to VGG-19 model 
+ProGamerGov/neural-style-pt,https://github.com/ProGamerGov/neural-style-pt/issues/55,55,84,normalize_weights
+ProGamerGov/neural-style-pt,https://github.com/ProGamerGov/neural-style-pt/issues/43,43,84,Missing -normalize_gradient parameter
+ProGamerGov/neural-style-pt,https://github.com/ProGamerGov/neural-style-pt/issues/5,5,6 9,Error: `Missing Keys` when loading VGG weights
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/197,197,199,supervised_mnist.py error
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/178,178,179,refract_count going negative
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/267,267,274,TensorboardX Logging
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/565,565,566,Continuous printing of torch.Size when using Conv2D
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/362,362,364,supervised MNIST example accuacy and GPU issues
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/483,483,484,Error in single spike encoding?
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/236,236,237,ETH_MNIST is not working correctly 
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/332,332,335,how to create feedback connections in bindsnet?
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/467,467,474,Google Speech Commands and BindsNET
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/172,172,173,Q: Structured input in Poisson?
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/312,312,311,Reorganize Examples
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/200,200,206,minimal_mnist.py results in AttributeError: 'numpy.ndarray' object has no attribute 'cpu'
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/186,186,187,refrac_count going negative part 2
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/539,539,540,Call NoneType object!
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/352,352,354,Voltage plot of supervised_mnist.py -example has description the wrong way around
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/190,190,191,Testing with conv_mnist.py
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/333,333,335,Does bindsnet support to forward two different input sets simultaneously ?
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/372,372,386,about the test mode
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/577,577,578,A (serious) bug preventing RL algorithms to work
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/351,351,354 386,Accuracy print-outs of supervised_mnist.py -example seem incorrect
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/202,202,203,How to use the rank_order encoding
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/242,242,243,Shape of tensors during convolutions
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/262,262,302,BindsNET guide / manual
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/130,130,132,Easier way to control learning in networks
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/496,496,500,Set torch version to 1.8.1
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/479,479,482,Couple of errors in eth_mnist.py
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/245,245,288,Minibatch processing
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/212,212,213,Weight clamping ineffective
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/204,204,205,Reward is not actually accumulated
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/156,156,157,"""""""Consistency with nu and nu_post nu_pre"""""""
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/140,140,141,Implementation of MSTDPET is wrong?
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/137,137,136,Inconsistency about refractory period with Brian Simulator
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/224,224,225,Reward prediction error instead of reward
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/435,435,436,Wrong `if` in `bindsnet.network.topology.LocalConnection.compute`
+BindsNET/bindsnet,https://github.com/BindsNET/bindsnet/issues/317,317,320,missing the attribute: spike_record  From breakout_stdp.py
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/953,953,989,Document generation process contains error and warning
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/512,512,511 557,DLK tests for segmentation fail on Arm with hard_quantize=False
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/904,904,978,SSDRandomCrop augmentation option  is not working in classification tutorial.
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/1136,1136,1187,Missing link in documentation.
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/601,601,614,Remove lmnet/CONTRIBUTING.md
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/197,197,198,Cannot see past training settings.
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/482,482,1111,add a new option to profile training
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/20,20,33,Tutorial for object detection
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/343,343,342,lmnet train.py raise ModuleNotFoundError when config file is under lmnet directory
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/210,210,501,wrong link in dlk README.md
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/569,569,584 586,Wrong memoryLayout in func_QTZ_binary_channel_wise_mean_scaling
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/139,139,174,Semantic Segmentation Tutorial
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/247,247,888,Mismatched order of thresholds for the decreasing function 
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/725,725,726 777,training does not hangup in certain conditions
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/1194,1194,1195,In case of really small dataset. MAX_STEPS can be less than 1 and lead to error.
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/949,949,954,Need equation support in Documentation
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/676,676,678,The configuration file cannot be read when running lmnet with GKE.
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/436,436,936 1013,Unify dlk build system
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/573,573,572 583,Typo (output_roor_dir)
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/420,420,449,Too many duplicated load_image(filename) functions
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/924,924,928,The flag of FUNC_TIME_MEASUREMENT should be set in compiling all ELF files
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/498,498,572,unify docstring style to Google style
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/476,476,522,Reduce memory usage in float conv2d
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/964,964,976,Object Detection tutorial command failed when validation dataset path is empty.
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/876,876,882,Remove whaaaaat dependency
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/362,362,364,Kernel Initializer is not passed into conv2D
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/335,335,521 552 556,Test for AArch64
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/909,909,957,lm_fpga.elf sometimes fails with classification
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/40,40,73 465,dlk jenkins output fatal: Not a a git repository
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/929,929,986 1001 1019,inference: run.py time measurement include library load
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/568,568,635,Model class is not necessary anymore
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/138,138,28,Optimizer Selection
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/991,991,1000,List up current network specification
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/99,99,100,redundant or bug branch instruction (not for FPGA version)
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/712,712,724,Rename generated library name
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/21,21,42,semantic segmentation support
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/801,801,827,Dataset directory issue in Keypoint Detection 
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/505,505,825,Unify requirements.txt
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/1176,1176,1177,Fix shapes of FER2013 dataset loader
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/397,397,400,Fix round
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/762,762,786 847,Move and rename dlk to blueoil/converter
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/1002,1002,1005,Support TFDS format for Segmentation
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/467,467,499,duplicated definition of shape method in Operator class
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/575,575,576 606,Some DLK tests are failed by timeout because time of DLK tests became longer
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/830,830,886 889,Verify LMBiSeNet runs on DE10-Nano
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/778,778,827,Verify Keypoint Detection Tutorial Documentation
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/781,781,782 783 795,Remove convert_weight_from_darknet related scripts
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/152,152,222,Generic quantized multiplication is probably wrong
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/502,502,501,DLK docker is no longer used
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/1188,1188,1202,update for docs? (about python command)
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/806,806,807,Benchmark time calculation is incorrect with using trial
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/484,484,1072,remove pandas dependency
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/715,715,717,"""""""TF1.15.0 has AddV2 TF1.14.0 had Add - compiler throws error"""""""
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/646,646,677,"""""""Fix os.rename(output output_file_path) in blueoil/cmd/convert.py"""""""
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/979,979,981 983 984 985 987 988,Include `blueoil/converter` and `tests/converter` in pep8 test
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/88,88,176 177 180,Missing Semantic Segmentation Interface
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/884,884,882,Blueoil init always apply quantization at the first layer
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/1234,1234,1235,BinaryMeanScalingQuantizer could return zero wrongly
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/190,190,321,Update DE10-Nano OS Image for New IP
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/939,939,958,yaml.load() args are deprecated
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/256,256,258,The use gfile to read/write configs is not overwriting the old saved config
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/368,368,379,No queue import compatibility on usb_camera_demo.py
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/796,796,799 802 810 811 813 815 822 824 826 832 833 834 835 839 840 841,Move lmnet/lmnet to blueoil/*
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/542,542,936,Choose make or cmake to maintaine for DLK
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/407,407,409,Remove ONNX code
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/574,574,659 670,Rename QTZ_binary_channel_wise_mean_scaling and other quantizers
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/1003,1003,1000 1004,Support table in markdown file
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/173,173,175,Concat network compile error by invalid type
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/523,523,525,If set optional classes on MscocoObjectDetection then fail to instantiate.
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/325,325,327 341,Tests on CI server failed sometimes
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/260,260,261,Make easier to test DLK on local DE10-Nano
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/424,424,425 589,Convert failed when GPU driver version is not 410.104.0
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/961,961,999,Refactor network class interface
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/259,259,264,usb_camera_demo.py doesn't work with python3
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/1145,1145,1146,CI: fix existing mypy errors
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/263,263,265,Data shape error when executing usb_camera_demo.py
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/1201,1201,1235,use modified tf.sign that can only output two possible values (for binary quantizer)
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/412,412,432,"""""""In segmentation/base.py a debug print is displayed."""""""
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/804,804,816 1083,The time measurement results are different between run.py and lm_*.elf
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/1173,1173,1177,"""""""""""""""validation"""""""" is needed in available_subsets in the FER2013 dataset loader """""""
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/812,812,825,Move requirements.txt to setup.cfg
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/687,687,689 695,Update TensorFlow 1.14 -> 1.15
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/901,901,905,CI is unstable: it sometimes fails during docker build
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/852,852,871,output_template is broken
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/805,805,807,run.py's trial parameter is not working
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/741,741,774 818 843 844 875,Move code in lmnet directory to blueoil directory.
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/25,25,69,Make pull request template
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/346,346,347,Pass_lookup failed to convert some cases
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/203,203,204 205,run.py raise SystemError on object detection task
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/700,700,633,Reduce BDD100K fixture images size
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/612,612,643,generate dataset iterator prefetch flag from Blueoil prefetch flag
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/868,868,942,Improve readability of `blueoil/cmd/predict.py`
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/491,491,495 513,Add a box related module
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/448,448,455,sort import order
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/673,673,674,Change default experiment_id in `blueoil/cmd/train.py`
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/433,433,461,remove LmThingsOnATable class
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/183,183,184,Add option to export npy file
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/245,245,246,Cannot re-training when existing experiment ID is specified
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/711,711,719,Support cosine learning rate scheduling
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/480,480,570 579,rename lmnet/utils/json.py
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/746,746,795 798 837 838,Move code in lmnet/executor directory to blueoil/cmd directory.
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/603,603,847,Merge dlk/docs to docs of top directory.
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/414,414,494,MscocoObjectDetection does not work.
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/1026,1026,1064,Make `output_template/python/run.py` work with custom data_processors
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/855,855,856,Import as NNLib is not necessary
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/906,906,943,Error message when failed to load config does not user-friendly
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/117,117,144,Generate Output Template for GPU  Model
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/814,814,828,PULL_REQUEST_TEMPLATE.md is deprecated
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/249,249,886,LMBiSeNet inference test error
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/971,971,982,UserWarning for LmSegnetV1Quantize
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/418,418,423,typo: placeholderes
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/727,727,728 846,Support multinode training on k8s and TFDS preprocessor
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/819,819,820,Variables declaration are missing in usb_camera_demo.py
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/233,233,271,Need to change `Prerequisites` page
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/1178,1178,1179,Need a list of PRETRAIN_VARS for fine tuning
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/858,858,862,Move blueoil/nn/quantizations to blueoil/quantizations
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/931,931,955,Documentation: How to quantize
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/1007,1007,1008,available_subsets are used as class variable and instance property
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/1046,1046,1050,Wrong PYTHONPATH in some documents
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/1011,1011,1012,"""""""Remove """"""""network"""""""" and """"""""dataset"""""""" args from blueoil.cmd.train.run()"""""""
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/1066,1066,1072 1086,Remove delta-mark
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/1174,1174,1185,Add configuration for `FER2013` datasets
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/1162,1162,1163,An error happens with no detected bounding box on object detection
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/507,507,587,Remove deprecated warnings
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/946,946,948,"""""""Can we remove a dataset subset type """"""""train_validation_saving""""""""?"""""""
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/602,602,604,Make dlk test executable with pytest command
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/23,23,73,kernel_transform_NHWC_to_HWNoCNi is called every time
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/993,993,994,Misisng __init__.py in some directory.
+blue-oil/blueoil,https://github.com/blue-oil/blueoil/issues/881,881,882,Cannot run blueoil init with  enable data augmentation? : No
+megvii-research/ICCV2019-LearningToPaint,https://github.com/megvii-research/ICCV2019-LearningToPaint/issues/2,2,1,`python3 baseline/train_renderer.py` call fails
+medipixel/rl_algorithms,https://github.com/medipixel/rl_algorithms/issues/251,251,252 250,Fix Ape-X (inconsistent) memory leak
+medipixel/rl_algorithms,https://github.com/medipixel/rl_algorithms/issues/247,247,246,Set black code style badge
+medipixel/rl_algorithms,https://github.com/medipixel/rl_algorithms/issues/230,230,234,Add all learners to registry to initialize with `build_learner()`
+medipixel/rl_algorithms,https://github.com/medipixel/rl_algorithms/issues/123,123,124,"""""""Late fusion MLP CNN should be moved to bitbucket repo"""""""
+medipixel/rl_algorithms,https://github.com/medipixel/rl_algorithms/issues/261,261,272,Prevent memory leak caused by converting numpy to tensor
+medipixel/rl_algorithms,https://github.com/medipixel/rl_algorithms/issues/277,277,281,Add test code for helper_function
+medipixel/rl_algorithms,https://github.com/medipixel/rl_algorithms/issues/129,129,140,Check performance TD3
+medipixel/rl_algorithms,https://github.com/medipixel/rl_algorithms/issues/131,131,135,Remove 'Abstract' in abstract class names.
+medipixel/rl_algorithms,https://github.com/medipixel/rl_algorithms/issues/222,222,225,Change output type of replay buffer sample
+medipixel/rl_algorithms,https://github.com/medipixel/rl_algorithms/issues/263,263,280,Should remove useless flag in run file
+medipixel/rl_algorithms,https://github.com/medipixel/rl_algorithms/issues/243,243,272,Modify to use numpy to float tensor method
+medipixel/rl_algorithms,https://github.com/medipixel/rl_algorithms/issues/255,255,257,Can't use ResNet in ApeX
+medipixel/rl_algorithms,https://github.com/medipixel/rl_algorithms/issues/254,254,256,Don't work to calculate mean of workers score in Apex distributed logger worker
+medipixel/rl_algorithms,https://github.com/medipixel/rl_algorithms/issues/242,242,279,Move loss_type to learner_cfg in DQN config files
+medipixel/rl_algorithms,https://github.com/medipixel/rl_algorithms/issues/235,235,285,Set package version
+medipixel/rl_algorithms,https://github.com/medipixel/rl_algorithms/issues/223,223,227,Detach update_model() from all agents and implement it in separate learner classes.
+medipixel/rl_algorithms,https://github.com/medipixel/rl_algorithms/issues/68,68,142,Converting source code for pytorch 1.0.0
+medipixel/rl_algorithms,https://github.com/medipixel/rl_algorithms/issues/183,183,276,Add the test code of the replay buffer
+medipixel/rl_algorithms,https://github.com/medipixel/rl_algorithms/issues/245,245,246,"""""""Incorporate distributed framework Ape-X and implement Ape-X DQN"""""""
+medipixel/rl_algorithms,https://github.com/medipixel/rl_algorithms/issues/249,249,253,Clip a priority to positive value on PER
+medipixel/rl_algorithms,https://github.com/medipixel/rl_algorithms/issues/54,54,111,mujoco reacher demo file generation
+medipixel/rl_algorithms,https://github.com/medipixel/rl_algorithms/issues/116,116,115,Create a key instead of using str
+medipixel/rl_algorithms,https://github.com/medipixel/rl_algorithms/issues/268,268,274,Update torch version <= 1.6
+zhou13/lcnn,https://github.com/zhou13/lcnn/issues/53,53,54,Issue with pytorch version
+ultralytics/yolov3,https://github.com/ultralytics/yolov3/issues/807,807,818,fuse_conv_and_bn
+ultralytics/yolov3,https://github.com/ultralytics/yolov3/issues/141,141,135,Can you add a num_workers option for the Dataloader?
+ultralytics/yolov3,https://github.com/ultralytics/yolov3/issues/679,679,688,INCREASING NMS SPEED
+hrpan/tetris_mcts,https://github.com/hrpan/tetris_mcts/issues/5,5,6,version details about the project
+namisan/mt-dnn,https://github.com/namisan/mt-dnn/issues/152,152,153,Prediction fails with new version of Collater
+RobotLocomotion/pytorch-dense-correspondence,https://github.com/RobotLocomotion/pytorch-dense-correspondence/issues/70,70,73 199,"""""""Visualize visdom plots offline after training has finished."""""""
+RobotLocomotion/pytorch-dense-correspondence,https://github.com/RobotLocomotion/pytorch-dense-correspondence/issues/166,166,165,Test these notebooks
+RobotLocomotion/pytorch-dense-correspondence,https://github.com/RobotLocomotion/pytorch-dense-correspondence/issues/68,68,199,return both masked and non_masked non-matches in the same __getitem__ call
+RobotLocomotion/pytorch-dense-correspondence,https://github.com/RobotLocomotion/pytorch-dense-correspondence/issues/74,74,76 199,"""""""Got an image with no mask stopped training"""""""
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2130,2130,2133,RFC: Add configuration section for global feature parameters
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2167,2167,2133,[Hyperopt] Create Hyperopt JSONSchema
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2448,2448,2118 2551,render config failed with key error for combiner registry in v0.5.3-v0.5.5 
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1321,1321,1363 1370 1377,Migrate text features to PyTorch
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2887,2887,2888,Automatically infer `vector_size` when not set explicitly by the user
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1403,1403,1410,Eval batch size does not scale at runtime with train batch size
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/820,820,824,[bug] ErrorScore should operate with tensors
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/973,973,979,Possible bug with calculation of jaccard similarity
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2110,2110,2109,Audio features cause output mismatch between LudwigModel and Torchscripted equivalent
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1911,1911,1912 1929,Normalization with number input feature does not occur with LudwigModel.evaluate() method
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2452,2452,2553,[tests] Ray nightly image tests with pandas+numpy fails with TensorDType error
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2054,2054,2058,Differences in model output between Ray and Local backends.
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2279,2279,2284,"""""""""""""""Error parsing date..."""""""""""""""
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/620,620,608,bug: test_visualization.py::test_visualization_calibration_1_vs_all_output_saved fails with IndexError in seaborn regplot() function
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1479,1479,1669,Log messages generated during training have intermittent formatting errors
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2886,2886,2890,Possible using torch DDP(DistributedDataParallel)?
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2243,2243,2445,Create parity between global defaults and hyperopt defaults
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1341,1341,1344,ValidationError: None is not of type 'string' while loading a trained model
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1009,1009,1011,Preload fails with ludwig 
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1137,1137,1138,`model.set_weights()` with ray backend throws an error when EARLY STOPPING
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2259,2259,2264,Incorrect predictions are produced
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/293,293,294,KeyError: 'tied_weights'
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2465,2465,2524,[Hyperopt] Ensure resource availability for Ray Datasets workloads when running on CPU clusters
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1875,1875,1878,learning_curves plot fails with KeyError with training only statistics generated
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/840,840,846,Caption on training improvement misleading
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1653,1653,1651,Training fails when using column names which conflict with PyTorch ModuleDict attributes e.x. 'to'
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2497,2497,2508,Examples to use large remote dataset(s3 or minio)
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1096,1096,1103,sampled_softmax_cross_entropy broken for machine translation example
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1147,1147,1148,TabNet combiner test failing on nightly
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1281,1281,2139,Address issue that Ludwig often reports root_mean_squared_error_percentage being infinity
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/963,963,964,Iterating over tf.Tensor is extremely slow in set_feature postprocess
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/975,975,994,Train throws AttributeError: module 'tensorflow.keras.losses' has no attribute 'softmax_cross_entropy'
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1940,1940,1941,Twitter bots dataset fails to load most images because 4 channels not supported for JPEG.
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2403,2403,2524,time budget setting doesn't take effect in remote Ray cluster
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1262,1262,1269,Support for distributed training for hyperparameter optimization
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2858,2858,2827 2820,Keep track of which fields in the config were explicitly set by users.
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/484,484,1174,Is it possible to pass 2D numpy arrays as input instead of png/jpg for image classification? 
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/650,650,651,Output overrided in save_savedmodel
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1389,1389,1402,Plateau batch size increase does not correctly update CLI output values
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1331,1331,1391,[ray] Migrate RayExecutor to Ray SGD
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/492,492,497,`skip_save_unprocessed_output` is not available for `LudwigModel.predict`
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2361,2361,2364, [Question] Best practice to use remote storage
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/554,554,555,pytest failure in audio inputs test case in Docker container
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2199,2199,2211,model.predict() fails on goemotions v0.5.3
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1783,1783,1606 2036,"""""""After Python 3.6 support is deprecated upgrade schema validator to use latest JSON spec."""""""
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1404,1404,1410,Allow eval_batch_size=auto in the config
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2228,2228,2238,Flaky tests: tests/ludwig/utils/entmax/test_losses.py::test_loss
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2156,2156,2162,[Hyperopt] Clean up logs
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1613,1613,1663,Training differences between PyTorch and Tensorflow versions of Ludwig
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1185,1185,1189,Latest master expects a test.hdf5 no matter what
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1104,1104,1105,Error training a model for Named Entity Recognition Tagging
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2102,2102,2103,Torchscript module throws error when inputs are exclusively binary features
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/609,609,638,"""""""In preprocessing when .hdf5 is not existing split is ignored"""""""
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1796,1796,1804,Links in the Readme are no longer working
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2483,2483,2485,nightly Ludwig seems use ray air API incorrectly
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1885,1885,1886,ludwig visualize roc_curves fail with KeyError with binary output feature
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2303,2303,2304,Failed`postproc_predictions` calculation in model.evaluate()
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2732,2732,2734,`ludwig.trainers.LightGBMTrainer` has no method `barrier`
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/828,828,829,gpu_memory_limit only works if gpus parameter is specified
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1889,1889,1893,bug: TypeError for float32 in get_dataset_cache when making prediction
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/296,296,367,Normalization for numerical inputs
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2499,2499,2508,TypeError: '>' not supported between instance of 'str' and 'int' when tune_for_memory is True
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/844,844,855,Exporting a savedmodel from a loaded model
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1871,1871,1872,[automl/hyperopt] Intermittent/Frequent issue that model_weights is not written to tune checkpoint directory 
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2066,2066,2069 2460,"""""""Comprehensive Configs: When saving the model export the fullest Ludwig config that includes module-specific parameters"""""""
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/413,413,1669,No output at Kaggle
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1324,1324,1332 1336 1348 1361,Migrate combiner to PyTorch
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1365,1365,1368 1376,Migrate TabNet  to PyTorch
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/350,350,571,Feature Request: add validation loss to tf.summary outputs
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/64,64,103,ludwig fails to work with uppercase extension names such as CSV and JSON
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1492,1492,1589,"""""""Add missing unit tests for all modules encoders decoders and features"""""""
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/960,960,980,Save SavedModel fails for SetInputFeature 
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/560,560,564,Proposal for Example Programs That Illustrate Python APIs
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1040,1040,1042,Hyperopt: Category feature preprocessing in hyperopt raising Attribute Error
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1502,1502,1522,Extensible loss and metric modules
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1914,1914,1933,Fresh install of ludwig does not work without torchtext and torchvision.  Also psutil missing from requirements.txt
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1118,1118,1119,Cannot export saved model
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1374,1374,1379,Remaining cleanup for PyTorch migration
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1323,1323,1327,Migrate time series features to PyTorch
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1134,1134,1138,"""""""Parquet dataset does not have a `self.features` attribute which is needed in the IterableBatcher"""""""
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2124,2124,2126,Tabnet combiner does not compile down to Torchscript
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1460,1460,1633,[torch][ray] Fix distributed metrics computation
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1030,1030,1031,Hyperopt metric_score uses last epoch instead of best epoch 
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/286,286,287,Web service wrapper around ludwig
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1749,1749,1747 1757,Ray integration tests are flaky / timing out with higher frequency.
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/547,547,551,Incorrect formatting of visualization api calls in Ludwig documentation
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2368,2368,2382,Setting validation split probability to 0 causes size errors
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1354,1354,1391,[ray] Use RayDatasets for training
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1991,1991,1992 2015,Evaluation failing because `target` is not integer Tensor.
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1616,1616,1975,Combiner schema do not `dump` empty/partial objects correctly.
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2186,2186,2191,Comparing invalid types to determine reduced learning rate
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2169,2169,2170,Cleanup NumPy array not writeable errors
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/819,819,832 897,"""""""TF2 is slower than TF1 improve speed"""""""
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1197,1197,1198,Is it possible to disable shuffle ?
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1528,1528,2051,[ray] Fix training progress bars
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1181,1181,1326,ZeroDivisionError in audio feature prediction with only  a single record
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1617,1617,1618,[tf-legacy] input_features type mismatch in combiners
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1093,1093,1103,Reported epoch loss value for single output feature model does not match reported epoch combined loss
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2129,2129,2132,RFC: Reorganize split configuration to support time-based split strategy
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2851,2851,2852 2861,encoder bug: missing argument `max_sequence_length` for RoBERTa encoder
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1400,1400,1391,[ray] Use Ray Train trainer for distributed hyperopt
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/1416,1416,1415,[ray] Perform preprocessing before hyperopt when possible
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2144,2144,2175,[Hyperopt] Steps per epoch not being computed correctly
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/268,268,1174,pass image in memory to predict API for image classification
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2308,2308,2328,Metadata mismatch while calculating overall stats
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/2125,2125,2133,RFC: Nesting Refactor for Encoder/Decoder Config 
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/340,340,352,Logging issue when activating Comet contrib
+ludwig-ai/ludwig,https://github.com/ludwig-ai/ludwig/issues/839,839,982,"""""""decay decay_rate and decay_steps not implemented"""""""
+philipperemy/keras-tcn,https://github.com/philipperemy/keras-tcn/issues/119,119,128,model.summary without detail of each layer in tcn 
+philipperemy/keras-tcn,https://github.com/philipperemy/keras-tcn/issues/138,138,140,padding='same' and time dimension not specified
+philipperemy/keras-tcn,https://github.com/philipperemy/keras-tcn/issues/104,104,105,TCN layer config does not account for layer norm
+philipperemy/keras-tcn,https://github.com/philipperemy/keras-tcn/issues/121,121,122,Normalization layer do not get unique names. Unable to save model.
+philipperemy/keras-tcn,https://github.com/philipperemy/keras-tcn/issues/5,5,6,Deprecation warnings in keras layers
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/343,343,346,Error in tutorial 4 code section 32 and some minor issue
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/61,61,63,KeyError: '_neighbor_pairs_j'
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/230,230,233,Warnings with latest version of PyTorch
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/226,226,263,Materials Project Training
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/250,250,261,validation batch using more memory than training batch
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/440,440,442,TypeError occurred when train models with the CLI
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/397,397,398,`neighborlist_md` `cutoff_shell` permits atoms to become closer than cutoff?
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/47,47,48,Element wise MeanSquaredError
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/324,324,326,"""""""GPU is being used even with --cuda disabled"""""""
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/430,430,429,tutorial_02_qm9.ipynb crash
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/84,84,87,Force training with angular symmetry functions for clusters with different number of atoms
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/410,410,414,Crash because of `should_rank_save_checkpoint` in `dev` branch
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/31,31,41,"""""""""""""""strict"""""""" argument in md.load_model()"""""""
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/104,104,110,hdnn.py distances not correct for periodically repeated bulk structure
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/165,165,216,Stress tensor
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/1,1,2,cleaning up the parser arguments in schnetpack_qm9.py
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/149,149,150,Evaluation on validation split fails
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/24,24,27,RMSE logging when training data contains molecules of varying sizes
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/384,384,399,Warning for TorchEnvironmentProvider
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/279,279,280,Make create_graph disabling optional
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/239,239,243,"""""""Trainer does not restore """"""""stopped"""""""" state"""""""
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/151,151,152,wrong split argument in evaluation when getting loaders
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/184,184,185 206,TorchEnvironmentProvider
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/44,44,45,Eval mode of all scripts broken by torch.load
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/13,13,14,Accidental letter in schnetpack_matproj.py
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/52,52,168,Improve documentation
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/223,223,224,Training Energy + Forces
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/126,126,146,Restarting training in CUDA mode
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/188,188,189,requires_stress on older models
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/8,8,9,Using trained model as ASE calculator
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/480,480,481,BanGap Property and MultiGPU Error
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/80,80,83,LoggingHook for training data
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/96,96,101,Dataloader stuck with AseEnvironmentProvider
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/54,54,55,JCTC paper training example
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/435,435,439,"""""""[Questions] How to set atomref using my own data and how to use remove_atomrefs."""""""
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/5,5,6,Force training
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/356,356,357,Bug in ConcatAtomsData if it contains AtomsDataSubsets
+atomistic-machine-learning/schnetpack,https://github.com/atomistic-machine-learning/schnetpack/issues/182,182,183,Memory requirements for material project dataset
+catalyst-team/catalyst,https://github.com/catalyst-team/catalyst/issues/180,180,189,[feature] add jit.trace support
+catalyst-team/catalyst,https://github.com/catalyst-team/catalyst/issues/129,129,317,[feature] python dependencies logging
+catalyst-team/catalyst,https://github.com/catalyst-team/catalyst/issues/85,85,87,some bugs in LRFinder
+catalyst-team/catalyst,https://github.com/catalyst-team/catalyst/issues/86,86,87 98,Some improvements of LRFinder
+catalyst-team/catalyst,https://github.com/catalyst-team/catalyst/issues/130,130,182,[feature] parse tensorboard logs without tensorflow
+catalyst-team/catalyst,https://github.com/catalyst-team/catalyst/issues/209,209,213,[solved] Multi-GPUs with Apex FP16
+nouhadziri/THRED,https://github.com/nouhadziri/THRED/issues/23,23,25,A dimension problem random300 embedding at models/base.py. 
+sktime/sktime,https://github.com/sktime/sktime/issues/3961,3961,3964 3969,[BUG] EnsembleForecaster fails to fit with exogenous data on hierarchical data
+sktime/sktime,https://github.com/sktime/sktime/issues/3473,3473,3475,[BUG] Calling predict_residuals() is writing in-sample index to self.fh which should not happen
+sktime/sktime,https://github.com/sktime/sktime/issues/2891,2891,3135,[ENH] BaseGridSearch to have param error_score like in sklearn
+sktime/sktime,https://github.com/sktime/sktime/issues/1614,1614,1670 2531,[ENH] should we have a `reset` method?
+sktime/sktime,https://github.com/sktime/sktime/issues/2628,2628,2486,[BUG] `_RecursiveReducer` breaks when list of transformers not starting with `WindowSummarizer` is given
+sktime/sktime,https://github.com/sktime/sktime/issues/2297,2297,2154 2299 2330,[BUG] readthedocs CI failure - module 'jinja2.utils' has no attribute 'escape'
+sktime/sktime,https://github.com/sktime/sktime/issues/2444,2444,2609,[BUG] Prophet growth logistic
+sktime/sktime,https://github.com/sktime/sktime/issues/3605,3605,3606,[BUG] `FourierFeatures` with `pd.DatetimeIndex`
+sktime/sktime,https://github.com/sktime/sktime/issues/2385,2385,2418 2439,[BUG] disable very aggressive citation message from `dtw-python`
+sktime/sktime,https://github.com/sktime/sktime/issues/2556,2556,2248 2557,"""""""[BUG] `BaseForecaster.update_predict` broken upon second call `detached_cutoff` does not reset component cutoffs"""""""
+sktime/sktime,https://github.com/sktime/sktime/issues/1290,1290,1232 3029 2379 3031,[BUG] sktime time series classification panel data have duplicate instance indices
+sktime/sktime,https://github.com/sktime/sktime/issues/1678,1678,1764 1902 1944 2223,Estimator Test Parameters Refactor
+sktime/sktime,https://github.com/sktime/sktime/issues/3192,3192,3232,[ENH] Adding MLP DL model for classification
+sktime/sktime,https://github.com/sktime/sktime/issues/2717,2717,2718 2720,[ENH] multivariate series-to-primitive transformers should have return n_instances = input n_instances
+sktime/sktime,https://github.com/sktime/sktime/issues/2202,2202,2314,Improved error messaging in transformers (and likely other places)
+sktime/sktime,https://github.com/sktime/sktime/issues/1496,1496,2975,[ENH] implement get_fitted_params for tuning forecasters
+sktime/sktime,https://github.com/sktime/sktime/issues/1746,1746,2100,[ENH] Probability Distributions in probabilistic forecasters
+sktime/sktime,https://github.com/sktime/sktime/issues/2886,2886,2887,[ENH] Upgrade to Prophet 1.1
+sktime/sktime,https://github.com/sktime/sktime/issues/2243,2243,2318 3542 3548,[ENH] ensure that pipelines and compositors work for hierarchical forecasters and transformers
+sktime/sktime,https://github.com/sktime/sktime/issues/3022,3022,2991 3386 3425,[ENH] save/load functionality for models
+sktime/sktime,https://github.com/sktime/sktime/issues/2799,2799,2855,[ENH] [Annotation Workstream] Implement HMM annotation estimator
+sktime/sktime,https://github.com/sktime/sktime/issues/2849,2849,2850,[ENH] docstrings of `evaluate` does not give examples on how to use parameter `scoring`
+sktime/sktime,https://github.com/sktime/sktime/issues/2275,2275,2281,"""""""[BUG] `ARIMA` `ThetaForecaster` `AutoETS`: `predict_interval` & `predict_coverage` give counterintuitive results"""""""
+sktime/sktime,https://github.com/sktime/sktime/issues/4067,4067,4075 4036,[BUG] Initializing any DL estimator with non-default values constructs these values only superficially
+sktime/sktime,https://github.com/sktime/sktime/issues/3402,3402,3405,[BUG] make_reduction causes misleading Exception on NaN values: `ValueError: Input X contains NaN.`
+sktime/sktime,https://github.com/sktime/sktime/issues/2751,2751,2747 2752,"""""""[BUG] after change of MAPE `symmetric` default to False grid search algorithms fail `test_score`"""""""
+sktime/sktime,https://github.com/sktime/sktime/issues/3286,3286,3354,[ENH] offset for `LogTransformer`
+sktime/sktime,https://github.com/sktime/sktime/issues/1887,1887,1940,[ENH] weighted version of scipy based distance class
+sktime/sktime,https://github.com/sktime/sktime/issues/2194,2194,2188 2279,"""""""[BUG] odd failure in `fh._coerce_to_period` that occurs only on windows in context of hierarchical forecast"""""""
+sktime/sktime,https://github.com/sktime/sktime/issues/1079,1079,1088 2609,[BUG] Prophet with logistic growth does not work
+sktime/sktime,https://github.com/sktime/sktime/issues/2291,2291,2296,[BUG] `update` of forecasting pipelines does not transform model
+sktime/sktime,https://github.com/sktime/sktime/issues/2442,2442,2450,[DOC] Broken links in Testing framework overview
+sktime/sktime,https://github.com/sktime/sktime/issues/2507,2507,2707,[ENH] DummyClassifier
+sktime/sktime,https://github.com/sktime/sktime/issues/3316,3316,3321 3326 3333 3451,[BUG] Errors when using the recursive strategy in make_reduction when forecasting panel data
+sktime/sktime,https://github.com/sktime/sktime/issues/2696,2696,2382,[DOC] Improve Documentation on Imputer method parameter
+sktime/sktime,https://github.com/sktime/sktime/issues/3300,3300,3301 3302,[BUG] pmdarima 2.0.0 incompatibility - return indices
+sktime/sktime,https://github.com/sktime/sktime/issues/2511,2511,2512,[BUG] `ColumnEnsembleForecaster` adds extra level to probabilistic predictions output
+sktime/sktime,https://github.com/sktime/sktime/issues/3009,3009,3129,"""""""[ENH] check override/defaulting of """"""""prediction intervals"""""""" adders"""""""
+sktime/sktime,https://github.com/sktime/sktime/issues/3789,3789,3708 3792,[BUG] FeatureUnion.get_params() causes infinite loop
+sktime/sktime,https://github.com/sktime/sktime/issues/2730,2730,2731 2732,[BUG] ARIMA model sarimax_kwargs doesn't exist after fit 
+sktime/sktime,https://github.com/sktime/sktime/issues/2233,2233,2234,[ENH] Probabilistic metric grid search integration
+sktime/sktime,https://github.com/sktime/sktime/issues/3474,3474,3481,[ENH] Adding TapNet DL Model for Regression
+sktime/sktime,https://github.com/sktime/sktime/issues/3073,3073,3074,[BUG] CI test logs are too verbose
+sktime/sktime,https://github.com/sktime/sktime/issues/2377,2377,2333,[MNT] remove minute-long tests and docstring examples
+sktime/sktime,https://github.com/sktime/sktime/issues/2361,2361,2362,[BUG] forecaster `update` errors out if `fh` is not passed in `fit`
+sktime/sktime,https://github.com/sktime/sktime/issues/3419,3419,3460,[BUG] `ConformalIntervals` update does not update residuals_matrix
+sktime/sktime,https://github.com/sktime/sktime/issues/2434,2434,2489,[BUG] vectorization of forecasters for hierarchical data eats away time-like hierarchy level
+sktime/sktime,https://github.com/sktime/sktime/issues/1687,1687,1865 1874 1879 1910 2100,"""""""[ENH] Forecasters: prediction interval probabilistic forecasting interface refactor"""""""
+sktime/sktime,https://github.com/sktime/sktime/issues/2290,2290,2154,[ENH] `WindowSummarizer` inputs for `lag_config`
+sktime/sktime,https://github.com/sktime/sktime/issues/1994,1994,1995 2468,[BUG] scipy 1.8.0 breaks BoxCoxtransformer due to reliance on private interface (needs fixing/removal)
+sktime/sktime,https://github.com/sktime/sktime/issues/2204,2204,2420,[BUG] ARIMA handles missing data but tag states otherwise
+sktime/sktime,https://github.com/sktime/sktime/issues/2746,2746,2648 3215,[DOC] Jupyter Notebooks to show cell outputs
+sktime/sktime,https://github.com/sktime/sktime/issues/3907,3907,3915,[ENH] Loosen the restrictions on the numpy version requirement
+sktime/sktime,https://github.com/sktime/sktime/issues/2615,2615,2486,[BUG] feature naming inconsistency in `WindowSummarizer`
+sktime/sktime,https://github.com/sktime/sktime/issues/2905,2905,3503 3781 3807,[BUG] contributors.md not updating?
+sktime/sktime,https://github.com/sktime/sktime/issues/2944,2944,2945 2874,[ENH] forecasting grid/random search estimators return wrong indices in `update_predict`
+sktime/sktime,https://github.com/sktime/sktime/issues/3601,3601,3728,[BUG] Recursive forecasting and Window Summarizer don't work similarly to each other.
+sktime/sktime,https://github.com/sktime/sktime/issues/2968,2968,2969 2970 2971,[BUG] sporadic failure - `RandomIntervalSegmenter` produces `DataFrame` with duplicate columns
+sktime/sktime,https://github.com/sktime/sktime/issues/2179,2179,1810 2370,[ENH] Deprecating the `RowTransformer`s
+sktime/sktime,https://github.com/sktime/sktime/issues/2315,2315,2440,[ENH] AutoETS: heavy random fluctuations in interval predictions - investigate random seed and correctness
+sktime/sktime,https://github.com/sktime/sktime/issues/3791,3791,3786,[BUG] MultiRocketMultivariate does not enforce np.float64 datatype and order
+sktime/sktime,https://github.com/sktime/sktime/issues/3816,3816,3817 3820,[BUG] testing deep learning base class fails due to optimizer type
+sktime/sktime,https://github.com/sktime/sktime/issues/2374,2374,2369,"""""""[BUG] SignatureTransformer and SignatureClassifier was incorrect erroneously transpose numpy3D arrays"""""""
+sktime/sktime,https://github.com/sktime/sktime/issues/1364,1364,1376 2458,"""""""[ENH] forecasting: ensure compositors (pipeline tuning) work for multivariate forecasters"""""""
+sktime/sktime,https://github.com/sktime/sktime/issues/3748,3748,3750 3760,[BUG] `keras` and other soft dep imports should be properly isolated in tests
+sktime/sktime,https://github.com/sktime/sktime/issues/3267,3267,3268 3270,[BUG] Updating a `TransformedTargetForecaster` with `Deseasonalizer` breaks
+sktime/sktime,https://github.com/sktime/sktime/issues/2499,2499,2763,[ENH] Add VARMAX statespace model in sktime
+sktime/sktime,https://github.com/sktime/sktime/issues/3119,3119,3121 3122,[BUG] clone is not working correctly on ExpandingWindowSplitter
+sktime/sktime,https://github.com/sktime/sktime/issues/1719,1719,1663 2718,[ENH] design - what should the output be of series transformers applied to multivariate series?
+sktime/sktime,https://github.com/sktime/sktime/issues/2898,2898,2887 2900,[MNT] Relax restriction on `cmdstanpy` version or completely remove it from `all_extras` dependencies
+sktime/sktime,https://github.com/sktime/sktime/issues/3159,3159,3167,[BUG] ARIMA.fit with numpy arrays not working correctly
+sktime/sktime,https://github.com/sktime/sktime/issues/2573,2573,2487 2835 3010,"""""""[ENH] design - init parameter check dynamic tags - conflicting interface requirements"""""""
+sktime/sktime,https://github.com/sktime/sktime/issues/2733,2733,2734 2736 2737 2732 2773,[BUG] fixing constructor non-compliance in various estimators
+sktime/sktime,https://github.com/sktime/sktime/issues/3071,3071,3075,[BUG] `SlidingWindowSplitter` and  `ExpandingWindowSplitter` only returns a single item for test split
+sktime/sktime,https://github.com/sktime/sktime/issues/3397,3397,3430,[ENH] Hierarchical agglomerative estimation: E-Agglo
+sktime/sktime,https://github.com/sktime/sktime/issues/2247,2247,2248,[ENH] Bagging Forecaster
+sktime/sktime,https://github.com/sktime/sktime/issues/3913,3913,3914,[BUG] Using `update` with `SlidingWindowSplitter` for `ConformalIntervals` gives a KeyError
+sktime/sktime,https://github.com/sktime/sktime/issues/2894,2894,2902,[ENH] adding CNNRegressor along the lines of CNNClassifier
+sktime/sktime,https://github.com/sktime/sktime/issues/3769,3769,3786,[ENH] Extend minirocket_multivariate to unequal / variable length time series
+sktime/sktime,https://github.com/sktime/sktime/issues/2338,2338,2333 2339 2364,[ENH] @lru_cache in ForecastingHorizon is an error for `flake8-bugbear`
+sktime/sktime,https://github.com/sktime/sktime/issues/3483,3483,3484,[BUG] msm alignment path
+sktime/sktime,https://github.com/sktime/sktime/issues/3315,3315,3340,[DOC] Docstring lists wrong default for `SlidingWindowSplitter` parameter `start_with_window`
+sktime/sktime,https://github.com/sktime/sktime/issues/2441,2441,2454,[ENH] UnobservedComponents model as probabilistic forecaster
+sktime/sktime,https://github.com/sktime/sktime/issues/3084,3084,3085,[BUG] Imputer and log transformer do not work together (inverse transform not applied)
+sktime/sktime,https://github.com/sktime/sktime/issues/3830,3830,3972,[BUG] `model_evaluation.evaluate` fails for `statsmodels` forecasters with exogenous features
+sktime/sktime,https://github.com/sktime/sktime/issues/2626,2626,2609 2630,[BUG] remove unused `interval_width` param from `Prophet`
+sktime/sktime,https://github.com/sktime/sktime/issues/3670,3670,3972,[BUG] `statsmodels` interfaces break for `X` containing more indices than forecasting horizon
+sktime/sktime,https://github.com/sktime/sktime/issues/2935,2935,2991,[ENH] Changing and Adding features to CNN Classifier
+sktime/sktime,https://github.com/sktime/sktime/issues/2889,2889,3383,[BUG] ConformalIntervals wrapped ARIMA/AutoARIMA breaks with default parameters
+sktime/sktime,https://github.com/sktime/sktime/issues/2283,2283,2335,[DOC] typo in `testing_framework.rst`
+sktime/sktime,https://github.com/sktime/sktime/issues/3538,3538,3425 3561,[BUG] `CNNRegressor` missing essential initializing parameters
+sktime/sktime,https://github.com/sktime/sktime/issues/971,971,942 2991 3077,[ENH] Nested `get_fitted_params` and `summary` interface
+sktime/sktime,https://github.com/sktime/sktime/issues/3345,3345,3346,[BUG] `Differencer` returns original data instead of inverting when all in-sample
+sktime/sktime,https://github.com/sktime/sktime/issues/2387,2387,2410,[ENH] list tag values in `all_estimators` return table
+sktime/sktime,https://github.com/sktime/sktime/issues/3191,3191,3233,[ENH] Adding FCN DL model for classification
+sktime/sktime,https://github.com/sktime/sktime/issues/2313,2313,2318,"""""""[ENH] correct capability tags in classifier pipelines forecasting pipelines etc"""""""
+sktime/sktime,https://github.com/sktime/sktime/issues/2702,2702,2760,[BUG] `compute_sliding_residuals` in `NaiveVariance` has overlap between train and test
+sktime/sktime,https://github.com/sktime/sktime/issues/3153,3153,3171,[ENH] Adding CNTC DL model for classification
+sktime/sktime,https://github.com/sktime/sktime/issues/2650,2650,3374,[ENH] Fourier series components
+sktime/sktime,https://github.com/sktime/sktime/issues/3082,3082,3075 3147,[ENH] Allow lists as `cutoff` argument in `CutoffSplitter`
+sktime/sktime,https://github.com/sktime/sktime/issues/2386,2386,2418,"""""""[ENH] disable """"""""moved estimator"""""""" deprecation warnings in `all_estimators`"""""""
+sktime/sktime,https://github.com/sktime/sktime/issues/2555,2555,2248 2558,[BUG] test framework retains state between different test runs
+sktime/sktime,https://github.com/sktime/sktime/issues/2943,2943,2945 2874,[ENH] forecasting grid/random search estimators fail on `get_fitted_params`
+sktime/sktime,https://github.com/sktime/sktime/issues/3169,3169,3231 3239 3250,[BUG] IndexError when selecting `return_X_y=False` and `return_type` is not referencing to a pandas dataframe.
+sktime/sktime,https://github.com/sktime/sktime/issues/3372,3372,3386,[ENH] Adding TapNet DL Model for Classification
+sktime/sktime,https://github.com/sktime/sktime/issues/2332,2332,2339 2390,[ENH] Replace deprecated `pandas.Int64Index` with `pandas.Index`
+intel/dffml,https://github.com/intel/dffml/issues/292,292,299,operation: model_predict: Raise exception when model is not an instance
+intel/dffml,https://github.com/intel/dffml/issues/601,601,627,df: base: Auto create definitions when they might have a spec
+intel/dffml,https://github.com/intel/dffml/issues/744,744,745,model: transformers: qa: SummaryWriter logs in default directory
+intel/dffml,https://github.com/intel/dffml/issues/343,343,344 334 346,model: tensorflow: Move to 2.0
+intel/dffml,https://github.com/intel/dffml/issues/302,302,306,"""""""models: Predict should be a feature not a string"""""""
+intel/dffml,https://github.com/intel/dffml/issues/908,908,918,model: pytorch: Change network layer name property to something else
+intel/dffml,https://github.com/intel/dffml/issues/288,288,299,feature: Remove need for def: when defining features via CLI
+intel/dffml,https://github.com/intel/dffml/issues/621,621,637,model: tensorflow: 2.2.0 Support
+intel/dffml,https://github.com/intel/dffml/issues/477,477,483,df: memory: Change MemoryInputSet unvalidated removal
+intel/dffml,https://github.com/intel/dffml/issues/358,358,357,ci: Final run of integration tests does not fail CI if tests fail
+intel/dffml,https://github.com/intel/dffml/issues/732,732,779 792 808 827 829 832 888 941 993,accuracy: Create new plugin type of scoring models
+intel/dffml,https://github.com/intel/dffml/issues/765,765,784,model: pytorch: New model for images
+intel/dffml,https://github.com/intel/dffml/issues/289,289,354,feature: Remove evaluation code
+intel/dffml,https://github.com/intel/dffml/issues/374,374,342 377,model: tensorflow: dnnr: Tests failing frequently
+intel/dffml,https://github.com/intel/dffml/issues/231,231,238,model: Move features from init of ModelContext to Model
+intel/dffml,https://github.com/intel/dffml/issues/303,303,354 641,feature: Replace Feature with DefFeature
+intel/dffml,https://github.com/intel/dffml/issues/657,657,802,service: http: HTTPChannelConfig: Allow for immdiate responses
+intel/dffml,https://github.com/intel/dffml/issues/207,207,253,source: csv: CSVSource is reporting int values for src_url instead of string
+intel/dffml,https://github.com/intel/dffml/issues/339,339,334,docs: contributing: style: Specify formatting for imports
+intel/dffml,https://github.com/intel/dffml/issues/47,47,38 71,model: Instantiation pattern should be consitant with data flow
+intel/dffml,https://github.com/intel/dffml/issues/220,220,221,model: tensorflow_dnnc: error on training dnnc after changing hidden_layers 
+intel/dffml,https://github.com/intel/dffml/issues/1147,1147,1148,model: pytorch: pretrained: Add Python API support for defining the last layers when using the pre-trained Models
+intel/dffml,https://github.com/intel/dffml/issues/349,349,278 357,df: types: Definition validation
+intel/dffml,https://github.com/intel/dffml/issues/563,563,1039,util: net: Add some progress logging on downloads
+intel/dffml,https://github.com/intel/dffml/issues/308,308,315,source: file/csv/json: Usability enhancements
+intel/dffml,https://github.com/intel/dffml/issues/810,810,814,"""""""docs: tutorial: dataflow: chatbot: Need to mention imports definitions and pip installs"""""""
+intel/dffml,https://github.com/intel/dffml/issues/282,282,585,docs: source: New File source tutorial
+intel/dffml,https://github.com/intel/dffml/issues/386,386,387,df: memory: Insure operation instance name gets set upon instantiation
+intel/dffml,https://github.com/intel/dffml/issues/610,610,585 613,cli: list: Change to json dump
+intel/dffml,https://github.com/intel/dffml/issues/597,597,642,df: base: op: Create output Definition if single value result
+intel/dffml,https://github.com/intel/dffml/issues/368,368,387,df: Input forwarding to subflows
+intel/dffml,https://github.com/intel/dffml/issues/1170,1170,1172,high_level:  Move code into a directory and splitting out into files. 
+intel/dffml,https://github.com/intel/dffml/issues/431,431,387,ci: docs: Failures of doctests not failing CI
+intel/dffml,https://github.com/intel/dffml/issues/173,173,176,ci: Need to check style of all submodules
+intel/dffml,https://github.com/intel/dffml/issues/1078,1078,1076,util : Add a common execution function based on `asyncio.create_subprocess_exec`
+intel/dffml,https://github.com/intel/dffml/issues/46,46,38 71,source: Instantiation pattern should be consitant with data flow
+intel/dffml,https://github.com/intel/dffml/issues/86,86,278,df: types: Autoconvert Definitions with spec into their spec
+intel/dffml,https://github.com/intel/dffml/issues/633,633,647,df: types: Support entrypoint style loading of operations
+intel/dffml,https://github.com/intel/dffml/issues/326,326,521,"""""""configuration: Change """"""""arg"""""""" to """"""""plugin"""""""""""""""
+intel/dffml,https://github.com/intel/dffml/issues/371,371,399,docs: usage: mnist: Finish tutorial
+intel/dffml,https://github.com/intel/dffml/issues/701,701,820,model: xgboost: New model
+intel/dffml,https://github.com/intel/dffml/issues/384,384,407,docs: model: scikit: Include examples of how to use from Python API
+intel/dffml,https://github.com/intel/dffml/issues/812,812,813,cli:dataflow:run: Commands to run dataflow without sources
+intel/dffml,https://github.com/intel/dffml/issues/49,49,71,df: types: Operation load() method needs implementing
+intel/dffml,https://github.com/intel/dffml/issues/392,392,492,df: memory: Dispatch operations without inputs as soon as DataFlow begins
+intel/dffml,https://github.com/intel/dffml/issues/393,393,400,docs: usage: integration: operations.py line slice is off
+intel/dffml,https://github.com/intel/dffml/issues/794,794,839,model: pytorch: Allow users to define layers in neural network
+intel/dffml,https://github.com/intel/dffml/issues/452,452,483,df: memory: Move operations_parameter_set_pairs to MemoryOrchestratorContext
+intel/dffml,https://github.com/intel/dffml/issues/297,297,1023,util: crypto: Create secure_hash and insecure_hash functions
+intel/dffml,https://github.com/intel/dffml/issues/106,106,333,repo: prediction: Should be feature specific
+intel/dffml,https://github.com/intel/dffml/issues/254,254,268,docs: usage: integration: Make prediction using operation
+intel/dffml,https://github.com/intel/dffml/issues/487,487,489,model: directory: Not calling directory.resolve() for pathlib directories
+intel/dffml,https://github.com/intel/dffml/issues/995,995,998,model: pytorch: resnet: Tensors are of unequal size
+intel/dffml,https://github.com/intel/dffml/issues/433,433,451 460,docs: model: tensorflow: Include examples of how to use from Python API
+intel/dffml,https://github.com/intel/dffml/issues/1056,1056,1092,util : net : `cached_download` and derivatives should no longer be decorators  
+intel/dffml,https://github.com/intel/dffml/issues/1040,1040,1076,ci: lint: commits: Add ci job to validate commit message format
+intel/dffml,https://github.com/intel/dffml/issues/537,537,634,Tensorflow_hub / scratch: ubuntu: python api does not run successfully as scikit does
+intel/dffml,https://github.com/intel/dffml/issues/1017,1017,1054,service: dev: docs: build: Convert scripts/docs.sh into dffml/service/dev.py CMD
+intel/dffml,https://github.com/intel/dffml/issues/615,615,685,docs: model: vowpal: Missing example usage
+intel/dffml,https://github.com/intel/dffml/issues/22,22,71,model: Impelment a way to pass model specific config options
+intel/dffml,https://github.com/intel/dffml/issues/316,316,340,model: tensorlfow: dnnc: Make classification property predict
+intel/dffml,https://github.com/intel/dffml/issues/382,382,454,df: types: Input validation option to use operations within DataFlow
+intel/dffml,https://github.com/intel/dffml/issues/910,910,917,model: pytorch: Custom exception when loss function is misspelled
+intel/dffml,https://github.com/intel/dffml/issues/402,402,456,source: db: Source using the database abstraction
+intel/dffml,https://github.com/intel/dffml/issues/1088,1088,1101,util : log : Need a  decorator which logs the Runtime of the function it wraps. 
+intel/dffml,https://github.com/intel/dffml/issues/394,394,518,df: memory: async iterator operations
+intel/dffml,https://github.com/intel/dffml/issues/434,434,541, docs: model: scratch: Include example of how to use from Python API
+intel/dffml,https://github.com/intel/dffml/issues/1051,1051,1070,util: asynctestcase: Consolidate test case classes
+intel/dffml,https://github.com/intel/dffml/issues/224,224,921,df: memory: Cap number of executing contexts
+intel/dffml,https://github.com/intel/dffml/issues/361,361,400,repo: Rename to record
+intel/dffml,https://github.com/intel/dffml/issues/265,265,299,util: entrypoint: entry_point should be have no underscore
+intel/dffml,https://github.com/intel/dffml/issues/320,320,609,model: Dynamiclly import libraries for model plugins when plugin is instantiated
+intel/dffml,https://github.com/intel/dffml/issues/662,662,1128 1172,model: Rename directory property to location
+intel/dffml,https://github.com/intel/dffml/issues/233,233,354,repo: Repo.src_url should be Repo.key
+intel/dffml,https://github.com/intel/dffml/issues/1181,1181,1226,accuracy: Rename high level accuracy() to score()
+intel/dffml,https://github.com/intel/dffml/issues/54,54,71,df: base: Base classes need to have context management within parent and context
+intel/dffml,https://github.com/intel/dffml/issues/435,435,634, docs: model: tensorflow hub: Include examples of how to use from Python API
+intel/dffml,https://github.com/intel/dffml/issues/680,680,760,model: predict method should take sources
+intel/dffml,https://github.com/intel/dffml/issues/907,907,920,docs: tutorials: neuralnetwork: Needs some minor improvements and explanation
+intel/dffml,https://github.com/intel/dffml/issues/291,291,299,operation: model_predict: Remove msg
+intel/dffml,https://github.com/intel/dffml/issues/383,383,503,model: tensorflow: Refactor
+intel/dffml,https://github.com/intel/dffml/issues/415,415,387,df: Support operation redefintion for run_dataflow
+intel/dffml,https://github.com/intel/dffml/issues/655,655,679 893,model: Stop guessing directory for models
+autonomio/talos,https://github.com/autonomio/talos/issues/549,549,550,Heatmap always have missing parts
+autonomio/talos,https://github.com/autonomio/talos/issues/135,135,138,forced conversion of int parameters to floats bug
+autonomio/talos,https://github.com/autonomio/talos/issues/421,421,581,[FEATURE REQUEST] add support for custom layers in `best_model()`
+autonomio/talos,https://github.com/autonomio/talos/issues/534,534,546,talos for a model with custom layer
+autonomio/talos,https://github.com/autonomio/talos/issues/580,580,581,Getting errors when handling custom object
+autonomio/talos,https://github.com/autonomio/talos/issues/30,30,34,search_method='linear' throws runtime error
+autonomio/talos,https://github.com/autonomio/talos/issues/65,65,70,How use Talos with custom model declaration f.ex. model=Model() and not model = Sequential()
+autonomio/talos,https://github.com/autonomio/talos/issues/106,106,109,Talos for regression problem
+autonomio/talos,https://github.com/autonomio/talos/issues/64,64,70,predict_classes in score_model.py results in AttributeError 
+autonomio/talos,https://github.com/autonomio/talos/issues/223,223,240,Ability to filter valid premutations
+autonomio/talos,https://github.com/autonomio/talos/issues/42,42,70,Documentation 
+lihanghang/NLP-Knowledge-Graph,https://github.com/lihanghang/NLP-Knowledge-Graph/issues/1,1,5,Python 3 incompatibilities
+voxelmorph/voxelmorph,https://github.com/voxelmorph/voxelmorph/issues/211,211,212,Bug in pytorch NCC loss class implementation - master branch
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/343,343,344,Docs are currently broken
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/61,61,74,Add backend dispatchers for operations in  funsor.ops
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/16,16,17,Redesign Funsor interface to support multivariate funsors
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/322,322,320 352 356 417,Support nontrivially shaped bint domains
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/158,158,168 172,Should we drop Python 2 support?
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/57,57,100 102 104 107 108,Fix funsor.minipyro and add tests
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/573,573,553 589,Increase test precision to float64?
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/359,359,360,examples/slds.py is broken
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/83,83,84 118,Make it easy to write pyro programs that mix PyTorch and Funsor
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/362,362,363 364 368,Move math from pyro.ops into funsor
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/159,159,170 320,Generate Distribution and RandomVariable wrapper classes programmatically
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/211,211,218 276,FR: syntactic sugar and API tweaks
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/207,207,250 296 303 318 368,Support multiple backends
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/381,381,382,Support diagonal renaming in funsor.Tensor
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/10,10,23 46,Add plated einsum example
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/332,332,333,Parametrize test suite by backend
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/51,51,49 65,Implement a Delta distribution and generalized Delta funsor
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/164,164,197,Update adjoint to be compatible with alpha-conversion
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/26,26,23 31 32,Implement Align and .align() funsors
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/71,71,77,Implement a Contract op as a fused Reduce(Binary or Finitary)
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/70,70,69 161 171,Support plates and convolution dims in Funsors?
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/201,201,200 202 277 280 283,Fix docs for initial release
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/27,27,29 33,Remove Substute; make all Funsors closed under substitution
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/145,145,147 155,Add tail call optimization to interpreter
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/309,309,365,"""""""Normalizing flows transforms as Funsors?"""""""
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/1,1,155 303 311,Add funsor.numpy backend
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/489,489,490 491,Support for non-funsor arguments to ops
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/50,50,64,Implement a generic funsor.adjoint algorithm
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/149,149,148 152 153 154 155,Clean up substitution
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/11,11,54 95,Add simple svi example
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/243,243,329,Nondeterministic typing error on module load
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/412,412,420,Implement distribution shape helpers to avoid need for dummy tensors
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/110,110,115,Implement a mixture interpretation
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/72,72,73 78 116 119 142 157 173 220 245 246 247 249 263,Implement recognition of affine transforms
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/184,184,186,"""""""Switch Gaussian to use information filter form avoiding pseudoinverses"""""""
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/235,235,249,Add lazy multidimensional Unit terms
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/52,52,54 75 91,Implement Monte Carlo interpretation of .logaddexp()
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/68,68,69,Implement a Joint funsor as a normal form / state machine
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/560,560,562,`NotImplementedError` when using `apply_optimizer`
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/8,8,67,Add example of optimizing sum-product compiler
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/156,156,157 169 173 165,Unify multilinear operations
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/547,547,548,Add Funsor (`Constant`) that is constant wrt to input variables
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/567,567,568,Switch to sqrt(prescision) representation in Gaussian?
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/80,80,160,Implement a memoize backend that takes another backend
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/79,79,82,Support torch.nn.Module with multiple outputs
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/96,96,148,Implement alpha conversion logic
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/336,336,337,Dependent in pytest
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/233,233,255 261 276,Change .reduce() interface to require Variables?
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/177,177,161 176 170 174 171 175 179 178 183 185 186 187 189 191 205 206,Project: Implement time series models usable in Pyro
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/5,5,345,Implement Beta-Binomial conjugacy
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/39,39,40 42,Nondeterministic test failure in test_einsum.py
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/474,474,478,Restore VAE example smoke test to CI
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/19,19,20 34 33 36,Add discrete HMM example
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/550,550,551,"""""""Dispatch to `Integrate(Delta ...)` in `normalize_integrate_contraction`"""""""
+pyro-ppl/funsor,https://github.com/pyro-ppl/funsor/issues/9,9,40 46 47,Support plates in optimizer
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/379,379,384,Unexpected crush with J=1 
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/284,284,346,Scattering2D doesn't work if 2**J == image_size
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/292,292,293,BUG 1D scattering does not respect `max_order`
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/857,857,863 989,"""""""redefine 1D `self.N` deprecate`self.J_pad`?"""""""
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/314,314,316,Unused 2D Psi filters
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/197,197,198,skcuda backend needs a NotImplementedError for 3d
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/230,230,229 234,Remove kwargs to `forward` in `Scattering3D`
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/322,322,320,REF Create 2D filterbank in spectral domain
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/637,637,670,Keras not saving model architecture
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/334,334,383,Test for raised errors in torch backend
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/363,363,364 381 412,Scattering2D doesn't work with 2**J == image_size
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/461,461,459,Batch compression and restore
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/836,836,837,`size_scattering` is not needed in `scattering1d`
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/135,135,141,Sphinx: 2D classif
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/421,421,541,BUG Working examples with the new frontend
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/122,122,219,3D crashes on CPU
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/175,175,203 315,[BUG] cache management of 2-D filter banks
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/227,227,235,Simplify 1D constructor
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/56,56,64,[2fix] Annoying warning to invalid escape
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/335,335,346,`Pad` object in torch backend is not tested with `pre_pad = True`
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/270,270,289,DOC Clarify benchmarks
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/323,323,345,ENH Remove PyTorch tensors from 2D filter bank generation
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/374,374,380,Code for inverting scattering via mse
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/231,231,234,Default arguments for 3D constructor
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/548,548,550,Speed up test suite
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/180,180,184,Warning in `mnist.py`
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/929,929,930,Test coverage is below 90%
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/37,37,39,`Scattering1D.forward` outputs Fourier transform for `average_U1 = False`
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/568,568,578,DOC keras + sk transformer in README.md
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/60,60,61,test folder of 3D?
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/895,895,871 900,what should be the returned shape of `Scattering1D` paths under `out_type='dict'` ?
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/196,196,212,Inconsistency in disabling second order
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/250,250,251,`Scattering3d` should be renamed
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/102,102,127,Do batch_size > 1 for 1D sample scattering test
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/801,801,888,AttributeError: 'Tensor' object has no attribute 'ndim'
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/856,856,914 915,`compute_params_filterbank` should return `xis` and `sigmas` but not `js`
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/339,339,390 405,Test for raised error and warnings in 3D torch backend
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/513,513,833,scattering1d/filter_bank module has too many functions
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/373,373,380,"""""""Hello I have a question about inverse"""""""
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/518,518,533,Tests silently fail if backends do not import cleanly
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/261,261,477,ENH simple unifications
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/220,220,228,CUDA<->CPU interface for 3D
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/488,488,505,Remove redundant loading of frontends
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/522,522,527,3D is not batch shape agnostic
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/451,451,449,ENH batch agnosticism
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/902,902,919,`T='global'` (global average pooling)
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/294,294,310,BUG Encoding issues
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/851,851,850 915,`ScatteringBase1D` kwargs should be passed via `dict`'s 
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/386,386,470,Inverse fft in 2D backend
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/26,26,115 140,"""""""Propagating the name """"""""kymatio"""""""""""""""
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/885,885,897 924,MAINT deprecate `self.average` 1D
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/978,978,979,JTFS `meta['order']` contains an off-by-one path index
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/283,283,289,DOC Add source install instructions to README
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/542,542,576,Error in regularized inverse scattering mnist torch example
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/811,811,889,HarmonicScattering3D should output real coefficients (Numpy)
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/309,309,541,Ill-conditioning in `scattering3d_qm7.py`
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/1,1,342,Documentation
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/427,427,540,`plot_invert_scattering.py` is not portable
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/348,348,390,Remove PyTorch from 1D/3D filter generation
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/870,870,871 877,"""""""`scattering(self x)` could (should?) be frontend-agnostic"""""""
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/108,108,121 123,sphinx-gallery: 1d/compute_speed 2d/compute_speed 3d/compute_speed
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/333,333,360,Test for raised errors in `Scattering2D.forward`
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/775,775,882 883 888,Keras Scattering1D example does not work with TF>=2.5
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/218,218,221 226,Make inputs dimension-agnostic (1D/2D)
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/561,561,563,More descriptive error message for missing frontend
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/2,2,342,[BUG] Scattering3D chemistry example currently yields too high MAE error
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/824,824,874,Utilize .to(device) semantics in examples
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/259,259,316 498,MAINT+ENH Quality assurance via benchmarking
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/222,222,238,3D output format
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/326,326,344,Unused `fftshift` option
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/849,849,850 854,`calibrate_scattering_filters` is unnecessary
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/408,408,405,BUG skcuda backend does not warn for non-contiguous cdgmm inputs
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/869,869,876,Remove assertions in `core/scattering1d`
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/306,306,346,Padding size problem
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/351,351,382 390,`to` function
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/214,214,190,Enable texext in Sphinx
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/594,594,650,sphinx inverses colors...
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/202,202,195 205 206,need for a cross-module `shape` kwarg to constructors
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/853,853,854,`Q2` is not customizable
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/150,150,189,[DOC] solving Sphinx issues
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/279,279,289,Scattering2D docstring contains an outdated example
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/296,296,298,BUG skcuda `subsample_fourier` crashes on non-complex inputs
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/111,111,541,sphinx-gallery: 3d/scattering3d_qm7
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/48,48,52,Scattering1D tests require sklearn
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/110,110,392,sphinx-gallery: mnist.py
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/452,452,449,ENH backend should be classes and not namedtuple
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/628,628,630,MAINT Remove option to not pad
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/297,297,298,ENH torch backend does not error for non-complex inputs
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/444,444,449 538,garbage error message resulting from type checks
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/917,917,918 924,`average` should be `None` by default in v0.3
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/852,852,860 862 912,Unnecessary arguments in `core/scattering1d/scattering1d`
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/307,307,308,BUG `scattering3d_qm7.py` crashes on GPU
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/868,868,890,Make NumPy the default frontend
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/223,223,225,Unexpected warning in 3D
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/825,825,833,`morlet_1d` and `gauss_1d` should be simpler
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/976,976,977,JTFS `frequency_averaging` produces IndexError
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/245,245,252,Default value for `Q`
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/8,8,9,3d_qm7 example crashes
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/357,357,381,`cdgmm` doesn't check that both inputs are on the same device
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/480,480,541,ModuleNotFoundErrors
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/253,253,254,Tests don't pass for skcuda backend
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/843,843,861 862,`vectorize` should be removed
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/269,269,289,DOC Clarify README intro
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/639,639,820,Documentation for 3D scattering output
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/137,137,139,unexpected warnings
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/176,176,188,[BUG] __all__ in scattering2d.py
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/875,875,900 871,"""""""Why wouldn't returned dicts with `out_type=""""""""list""""""""` not have an `n` field?"""""""
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/463,463,465 467,Remove `expand_dims`/`unsqueeze` in `unpad`
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/418,418,534,ENH Multiple tensor sizes
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/273,273,289 526,DOC 3D benchmarks
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/663,663,667 820,Flaky TF FFT unit test
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/419,419,465 487,ENH removing torch from the tests
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/177,177,187,[BUG] unimported warnings in cdgmm3d
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/966,966,967,frontends should expose TimeFrequencyScattering
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/248,248,247,Fix ordering of orders
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/287,287,288,BUG 3D benchmark fails on GPU
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/454,454,820,On output of 3D scattering
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/58,58,57,Bug with backends
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/194,194,195,Inconsistency in the position of J across Scattering*d constructors
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/213,213,215,"""""""1D needs a (BT) input rather than (B 1 T)"""""""
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/497,497,500,axis argument torch.stack is undocumented
+kymatio/kymatio,https://github.com/kymatio/kymatio/issues/478,478,508,Sphinx gallery does not create thumbnails for all examples

@@ -1,0 +1,147 @@
+# -*- coding: utf-8 -*-
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this file,
+# You can obtain one at http://mozilla.org/MPL/2.0/.
+
+import argparse
+import csv
+import os
+from datetime import datetime, timedelta
+
+import numpy as np
+
+from bugbug import repository  # noqa
+from bugbug import bugzilla, db
+from bugbug.models import get_model_class
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--lemmatization",
+        help="Perform lemmatization (using spaCy)",
+        action="store_true",
+    )
+    parser.add_argument("--train", help="Perform training", action="store_true")
+    parser.add_argument(
+        "--goal",
+        help="Goal of the classifier",
+        choices=[
+            # bug classifiers
+            "defect",
+            "regression",
+            "tracking",
+            "qaneeded",
+            "uplift",
+            "component",
+            "devdocneeded",
+            "defectenhancementtask",
+            "assignee",
+            # commit classifiers
+            "backout",
+        ],
+        default="defect",
+    )
+    parser.add_argument(
+        "--classifier",
+        help="Type of the classifier",
+        choices=["default", "nn"],
+        default="default",
+    )
+    parser.add_argument("--classify", help="Perform evaluation", action="store_true")
+    parser.add_argument(
+        "--generate-sheet",
+        help="Perform evaluation on bugs from last week and generate a csv file",
+        action="store_true",
+    )
+    parser.add_argument("--token", help="Bugzilla token", action="store")
+    parser.add_argument(
+        "--historical", help="Analyze historical bugs", action="store_true"
+    )
+    args = parser.parse_args()
+
+    model_file_name = "{}{}model".format(
+        args.goal, "" if args.classifier == "default" else args.classifier
+    )
+
+    model_class_name = args.goal
+
+    if args.goal == "component":
+        if args.classifier == "default":
+            model_class_name = "component"
+        elif args.classifier == "nn":
+            model_class_name = "component_nn"
+        else:
+            raise ValueError(f"Unkown value {args.classifier}")
+
+    model_class = get_model_class(model_class_name)
+
+    if args.train:
+        db.download()
+
+        if args.historical:
+            model = model_class(args.lemmatization, args.historical)
+        else:
+            model = model_class(args.lemmatization)
+        model.train()
+    else:
+        model = model_class.load(model_file_name)
+
+    if args.classify:
+        for bug in bugzilla.get_bugs():
+            print(
+                f'https://bugzilla.mozilla.org/show_bug.cgi?id={ bug["id"] } - { bug["summary"]} '
+            )
+
+            if model.calculate_importance:
+                probas, importances = model.classify(
+                    bug, probabilities=True, importances=True
+                )
+
+                feature_names = model.get_feature_names()
+                for i, (importance, index, is_positive) in enumerate(importances):
+                    print(
+                        f'{i + 1}. \'{feature_names[int(index)]}\' ({"+" if (is_positive) else "-"}{importance})'
+                    )
+            else:
+                probas = model.classify(bug, probabilities=True, importances=False)
+
+            if np.argmax(probas) == 1:
+                print(f"Positive! {probas}")
+            else:
+                print(f"Negative! {probas}")
+            input()
+
+    if args.generate_sheet:
+        assert (
+            args.token is not None
+        ), "A Bugzilla token should be set in order to download bugs"
+        today = datetime.utcnow()
+        a_week_ago = today - timedelta(7)
+        bugzilla.set_token(args.token)
+        bugs = bugzilla.download_bugs_between(a_week_ago, today)
+
+        print(f"Classifying {len(bugs)} bugs...")
+
+        rows = [["Bug", f"{args.goal}(model)", args.goal, "Title"]]
+
+        for bug in bugs:
+            p = model.classify(bug, probabilities=True)
+            rows.append(
+                [
+                    f'https://bugzilla.mozilla.org/show_bug.cgi?id={bug["id"]}',
+                    "y" if p[0][1] >= 0.7 else "n",
+                    "",
+                    bug["summary"],
+                ]
+            )
+
+        os.makedirs("sheets", exist_ok=True)
+        with open(
+            os.path.join(
+                "sheets",
+                f'{args.goal}-{datetime.utcnow().strftime("%Y-%m-%d")}-labels.csv',
+            ),
+            "w",
+        ) as f:
+            writer = csv.writer(f)
+            writer.writerows(rows)

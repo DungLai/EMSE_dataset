@@ -1,0 +1,18 @@
+CORE_PLUGINS = [
+    ("configloader", "yaml"),
+    ("configloader", "png"),
+    ("model", "daal4py"),
+    ("model", "scratch"),
+    ("model", "scikit"),
+    ("model", "tensorflow"),
+    ("model", "tensorflow_hub"),
+    ("model", "transformers"),
+    ("model", "vowpalWabbit"),
+    ("examples", "shouldi"),
+    ("feature", "git"),
+    ("feature", "auth"),
+    ("operations", "binsec"),
+    ("operations", "deploy"),
+    ("service", "http"),
+    ("source", "mysql"),
+]

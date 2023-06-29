@@ -1,0 +1,143 @@
+#!/usr/bin/env python3 -u
+# -*- coding: utf-8 -*-
+# copyright: sktime developers, BSD-3-Clause License (see LICENSE file)
+
+__author__ = ["Lovkush Agarwal"]
+__all__ = []
+
+import numpy as np
+
+from sklearn.linear_model import LinearRegression
+from sklearn.pipeline import Pipeline
+
+from sktime.datasets import load_airline
+from sktime.forecasting.base import ForecastingHorizon
+from sktime.forecasting.model_selection import temporal_train_test_split
+from sktime.transformations.panel.reduce import Tabularizer
+from sktime.forecasting.compose._reduce import ReducedForecaster
+from sktime.forecasting.compose._reduce import RecursiveRegressionForecaster
+from sktime.forecasting.compose._reduce import DirectRegressionForecaster
+from sktime.forecasting.compose._reduce import MultioutputRegressionForecaster
+from sktime.forecasting.compose._reduce import RecursiveTimeSeriesRegressionForecaster
+from sktime.forecasting.compose._reduce import DirectTimeSeriesRegressionForecaster
+
+
+def test_factory_method_recursive():
+    y = load_airline()
+    y_train, y_test = temporal_train_test_split(y, test_size=24)
+    fh = ForecastingHorizon(y_test.index, is_relative=False)
+
+    regressor = LinearRegression()
+    f1 = ReducedForecaster(regressor, scitype="regressor", strategy="recursive")
+    f2 = RecursiveRegressionForecaster(regressor)
+
+    actual = f1.fit(y_train).predict(fh)
+    expected = f2.fit(y_train).predict(fh)
+
+    np.testing.assert_array_equal(actual, expected)
+
+
+def test_factory_method_direct():
+    y = load_airline()
+    y_train, y_test = temporal_train_test_split(y, test_size=24)
+    fh = ForecastingHorizon(y_test.index, is_relative=False)
+
+    regressor = LinearRegression()
+    f1 = ReducedForecaster(regressor, scitype="regressor", strategy="direct")
+    f2 = DirectRegressionForecaster(regressor)
+
+    actual = f1.fit(y_train, fh=fh).predict(fh)
+    expected = f2.fit(y_train, fh=fh).predict(fh)
+
+    np.testing.assert_array_equal(actual, expected)
+
+
+def test_factory_method_ts_recursive():
+    y = load_airline()
+    y_train, y_test = temporal_train_test_split(y, test_size=24)
+    fh = ForecastingHorizon(y_test.index, is_relative=False)
+
+    ts_regressor = Pipeline(
+        [("tabularize", Tabularizer()), ("model", LinearRegression())]
+    )
+    f1 = ReducedForecaster(ts_regressor, scitype="ts_regressor", strategy="recursive")
+    f2 = RecursiveTimeSeriesRegressionForecaster(ts_regressor)
+
+    actual = f1.fit(y_train).predict(fh)
+    expected = f2.fit(y_train).predict(fh)
+
+    np.testing.assert_array_equal(actual, expected)
+
+
+def test_factory_method_ts_direct():
+    y = load_airline()
+    y_train, y_test = temporal_train_test_split(y, test_size=24)
+    fh = ForecastingHorizon(y_test.index, is_relative=False)
+
+    ts_regressor = Pipeline(
+        [("tabularize", Tabularizer()), ("model", LinearRegression())]
+    )
+    f1 = ReducedForecaster(ts_regressor, scitype="ts_regressor", strategy="direct")
+    f2 = DirectTimeSeriesRegressionForecaster(ts_regressor)
+
+    actual = f1.fit(y_train, fh=fh).predict(fh)
+    expected = f2.fit(y_train, fh=fh).predict(fh)
+
+    np.testing.assert_array_equal(actual, expected)
+
+
+def test_multioutput_direct_tabular():
+    # multioutput and direct strategies with linear regression
+    # regressor should produce same predictions
+    y = load_airline()
+    y_train, y_test = temporal_train_test_split(y, test_size=24)
+    fh = ForecastingHorizon(y_test.index, is_relative=False)
+
+    regressor = LinearRegression()
+    f1 = MultioutputRegressionForecaster(regressor)
+    f2 = DirectRegressionForecaster(regressor)
+
+    preds1 = f1.fit(y_train, fh=fh).predict(fh)
+    preds2 = f2.fit(y_train, fh=fh).predict(fh)
+
+    # assert_almost_equal does not seem to work with pd.Series objects
+    np.testing.assert_almost_equal(preds1.to_numpy(), preds2.to_numpy(), decimal=5)
+
+
+def test_direct_tabular():
+    y = load_airline()
+    y_train, y_test = temporal_train_test_split(y, test_size=24)
+    fh = ForecastingHorizon(y_test.index, is_relative=False)
+
+    regressor = LinearRegression()
+    f1 = DirectRegressionForecaster(regressor)
+
+    actual = f1.fit(y_train, fh=fh).predict(fh)
+    expected = [
+        388.7894742436609,
+        385.4311737990922,
+        404.66760376792183,
+        389.3921653574014,
+        413.5415037170552,
+        491.27471550855756,
+        560.5985060880608,
+        564.1354313250545,
+        462.8049467298484,
+        396.8247623180332,
+        352.5416937680942,
+        369.3915756974357,
+        430.12889943026323,
+        417.13419789042484,
+        434.8091175980315,
+        415.33997516059355,
+        446.97711875155846,
+        539.6761098618977,
+        619.7204673400846,
+        624.3153932803112,
+        499.686252475341,
+        422.0658526180952,
+        373.3847171492921,
+        388.8020135264563,
+    ]
+
+    np.testing.assert_almost_equal(actual, expected, decimal=5)

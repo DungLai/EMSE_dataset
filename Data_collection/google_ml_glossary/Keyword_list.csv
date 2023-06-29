@@ -1,0 +1,499 @@
+Original keywords,Included keywords
+A/B testing,
+accuracy,accuracy
+action,
+activation function,activation function
+active learning,active learning
+AdaGrad,adagrad
+agent,
+agglomerative clustering,agglomerative clustering
+anomaly detection,anomaly detection
+AR,
+area under the PR curve,PR curve
+area under the ROC curve,ROC curve
+artificial general intelligence,artificial, intelligence, intelligent
+artificial intelligence,
+attention,attention
+attribute,
+attribute sampling,
+AUC (Area under the ROC curve),AUC
+augmented reality,augmented reality
+automation bias,automation bias
+average precision,average precision, precision
+axis-aligned condition,axis-aligned condition
+backpropagation,backpropagation
+bagging,bagging
+bag of words,
+baseline,baseline
+batch,batch
+batch normalization,batch normalization
+batch size,batch size
+Bayesian neural network,bayesian neural network, neural network
+Bayesian optimization,bayesian optimization, bayesian
+Bellman equation,bellman equation
+BERT (Bidirectional Encoder Representations from Transformers),bert, encoder, bidirect
+bias (ethics/fairness),bias
+bias (math) or bias term,
+bigram,bigram
+bidirectional,bidirect
+bidirectional language model,bidirectional language model, language model
+binary classification,binary classification, classification
+binary condition,
+binning,binning
+BLEU (Bilingual Evaluation Understudy),bleu, bilingual
+boosting,boosting
+bounding box,bounding box
+broadcasting,broadcasting
+bucketing,bucketing
+calibration layer,calibration layer
+candidate generation,candidate generation
+candidate sampling,candidate sampling
+categorical data,categorical data
+causal language model,causal language model
+centroid,centroid
+centroid-based clustering,centroid-based clustering
+checkpoint,checkpoint
+class,
+classification model,classification
+classification threshold,threshold
+class-imbalanced dataset,imbalance, dataset
+clipping,clipping
+Cloud TPU,tpu
+clustering,clustering
+co-adaptation,
+collaborative filtering,collaborative filtering
+condition,
+confirmation bias,bias
+confusion matrix,confusion matrix, matrix
+continuous feature,continuous feature
+convenience sampling,convenience sampling
+convergence,convergence
+convex function,convex function
+convex optimization,convex optimization
+convex set,convex set
+convolution,convolution
+convolutional filter,
+convolutional layer,convolutional, layer
+convolutional neural network,convolutional
+convolutional operation,convolutional operation
+cost,
+co-training,co-training, train
+counterfactual fairness,counterfactual
+coverage bias,coverage bias
+crash blossom,crash blossom
+critic,
+cross-entropy,cross-entropy, entropy
+cross-validation,cross-validation, validation
+data analysis,data analysis
+data augmentation,data augmentation
+DataFrame,DataFrame
+data parallelism,data parallelism
+data set or dataset,
+Dataset API (tf.data),
+decision boundary,decision boundary
+decision forest,decision forest
+decision threshold,decision threshold
+decision tree,decision tree
+deep model,deep model
+decoder,decoder, decode
+deep neural network,
+Deep Q-Network (DQN),q-network, dqn
+demographic parity,demographic parity
+denoising,denoising
+dense feature,dense feature
+dense layer,dense layer
+depth,
+depthwise separable convolutional neural network (sepCNN),cnn, lstm
+derived label,
+device,
+dimension reduction,dimension reduction
+dimensions,
+discrete feature,discrete
+discriminative model,discriminative
+discriminator,discriminator
+disparate impact,
+disparate treatment,disparate
+divisive clustering,divisive
+downsampling,downsampling
+DQN,DQN
+dropout regularization,dropout, regularization
+dynamic,
+dynamic model,
+eager execution,eager execution
+early stopping,early stopping
+earth mover's distance (EMD),earth mover's distance, emd
+embedding layer,embedding
+embedding space,embedding space
+embedding vector,embedding vector
+empirical risk minimization (ERM),empirical risk minimization, erm
+encoder,encoder
+ensemble,ensemble
+entropy,entropy
+environment,
+episode,
+epoch,epoch
+epsilon greedy policy,epsilon greedy policy
+equality of opportunity,
+equalized odds,
+Estimator,Estimator
+example,
+experience replay,
+experimenter's bias,
+exploding gradient problem,exploding gradient 
+fairness constraint,
+fairness metric,fairness
+false negative (FN),false negative, fn
+false negative rate,rate, FNR
+false positive (FP),false positive, fp
+false positive rate (FPR),FPR
+feature,
+feature cross,feature cross
+feature engineering,feature engineering
+feature extraction,feature extraction
+feature importances,feature importances
+feature set,feature set
+feature spec,feature spec
+feature vector,feature vector
+federated learning,federated learning
+feedback loop,feedback loop
+feedforward neural network (FFN),feedforward, FFN
+few-shot learning,few-shot learning
+fine tuning,fine tuning
+forget gate,forget gate
+full softmax,softmax
+fully connected layer,connected layer
+GAN,gan
+generalization,
+generalization curve,
+generalized linear model,linear model
+generative adversarial network (GAN),generative adversarial network
+generative model,
+generator,
+GPT (Generative Pre-trained Transformer),gpt, Generative Pre-trained Transformer
+gini impurity,gini impurity
+gradient,gradient
+gradient boosting,gradient boosting
+gradient boosted (decision) trees (GBT),gradient boosted, gbt, decision tree
+gradient clipping,gradient clipping
+gradient descent,gradient descent
+graph,
+graph execution,
+greedy policy,greedy policy
+ground truth,ground truth
+group attribution bias,group attribution bias
+hallucination,hallucination
+hashing,
+heuristic,
+hidden layer,hidden layer
+hierarchical clustering,hierarchical clustering
+hinge loss,hinge loss
+holdout data,holdout data
+hyperparameter,hyperparameter
+hyperplane,hyperplane
+i.i.d.,iid
+image recognition,image recognition
+imbalanced dataset,imbalanced dataset
+implicit bias,implicit bias
+incompatibility of fairness metrics,
+independently and identically distributed (i.i.d),
+individual fairness,
+inference,inference
+inference path,
+information gain,information gain
+in-group bias,in-group bias
+input layer,input layer
+in-set condition,in-set condition
+instance,
+interpretability,interpretability
+inter-rater agreement,inter-rater agreement
+intersection over union (IoU),intersection over union, iou
+IoU,IoU
+item matrix,
+items,
+iteration,
+Keras,keras
+keypoints,keypoints
+Kernel Support Vector Machines (KSVMs),kernel, ksvm
+k-means,k-mean
+k-median,
+L0 regularization,L0
+L1 loss,L1
+L1 regularization,L1
+L2 loss,L2
+L2 regularization,L2
+label,
+labeled example,
+LaMDA (Language Model for Dialogue Applications),
+lambda,
+landmarks,
+language model,
+large language model,
+layer,
+Layers API (tf.layers),
+leaf,
+learning rate,
+least squares regression,least squares regression
+linear model,linear model
+linear,
+linear regression,regression
+logistic regression,logistic
+logits,
+Log Loss,Log Loss
+log-odds,log-odds
+Long Short-Term Memory (LSTM),lstm
+loss,
+loss curve,
+loss function,
+loss surface,
+LSTM,LSTM
+machine learning,
+majority class,majority class
+Markov decision process (MDP),markov decision, mdp
+Markov property,
+masked language model,
+matplotlib,matplotlib
+matrix factorization,
+Mean Absolute Error (MAE),mean absolute error, mae
+Mean Squared Error (MSE),mse, mean square error
+metric,
+meta-learning,meta-learning
+Metrics API (tf.metrics),
+mini-batch,mini-batch
+mini-batch stochastic gradient descent,gradient descent
+minimax loss,minimax
+minority class,
+ML,ML
+MNIST,MNIST
+modality,
+model,
+model capacity,model capacity
+model parallelism,model parallelism
+model training,model training
+Momentum,
+multi-class classification,
+multi-class logistic regression,
+multi-head self-attention,
+multimodal model,
+multinomial classification,
+multinomial regression,
+NaN trap,
+natural language understanding,
+negative class,
+neural network,
+neuron,neuron
+N-gram,N-gram
+NLU,NLU
+node (neural network),
+node (TensorFlow graph),tensorflow
+node (decision tree),
+noise,
+non-binary condition,
+nonlinear,
+non-response bias,
+nonstationarity,nonstationarity
+normalization,normalization
+novelty detection,
+numerical data,
+NumPy,NumPy
+objective,
+objective function,
+oblique condition,oblique
+offline,
+offline inference,inference
+one-hot encoding,one-hot
+one-shot learning,one-shot
+one-vs.-all,one-vs.-all
+online,
+online inference,
+operation (op),
+out-of-bag evaluation (OOB evaluation),oob
+optimizer,optimizer
+out-group homogeneity bias,out-group, homogeneity, bias
+outlier detection,outlier, detection
+outliers,
+output layer,
+overfitting,overfit, overfitting
+oversampling,oversampling
+pandas,pandas
+parameter,parameter
+Parameter Server (PS),PS
+parameter update,parameter update
+partial derivative,partial derivative
+participation bias,participation bias
+partitioning strategy,partitioning strategy
+perceptron,perceptron
+performance,performance
+permutation variable importances,permutation variable importances
+perplexity,perplexity
+pipeline,pipeline
+pipelining,
+policy,
+pooling,pooling
+positive class,
+post-processing,
+PR AUC (area under the PR curve),AUC
+precision,precision
+precision-recall curve,recall
+prediction,prediction
+prediction bias,bias
+predictive parity,parity
+predictive rate parity,predictive
+preprocessing,
+pre-trained model,pre-train, pretrain, train
+prior belief,prior, belief
+probabilistic regression model,probabilistic
+proxy (sensitive attributes),
+proxy labels,
+Q-function,q-function
+Q-learning,q-learn
+quantile,quantile
+quantile bucketing,quantile
+quantization,quantization
+queue,
+random forest,random forest
+random policy,
+ranking,
+rank (ordinality),
+rank (Tensor),tensor
+rater,rater
+recall,recall
+recommendation system,recommendation system
+Rectified Linear Unit (ReLU),relu, rectified linear unit
+recurrent neural network,recurrent
+regression model,
+regularization,regularization
+regularization rate,regularization
+reinforcement learning (RL),reinforcement, rl
+ReLU,ReLU
+replay buffer,
+reporting bias,
+representation,
+re-ranking,
+return,
+reward,
+ridge regularization,
+RNN,RNN
+ROC (receiver operating characteristic) Curve,ROC
+root,
+root directory,
+Root Mean Squared Error (RMSE),
+rotational invariance,rotational, invariance
+sampling bias,
+sampling with replacement,
+SavedModel,
+Saver,
+scalar,
+scaling,
+scikit-learn,scikit
+scoring,
+selection bias,
+self-attention (also called self-attention layer),self-attention
+self-supervised learning,
+self-training,
+semi-supervised learning,semi-supervised
+sensitive attribute,
+sentiment analysis,
+sequence model,
+sequence-to-sequence task,
+serving,
+shape (Tensor),
+shrinkage,
+sigmoid function,sigmoid
+similarity measure,similarity measure
+size invariance,
+sketching,
+softmax,softmax
+sparse feature,sparse feature
+sparse representation,sparse representation
+sparse vector,sparse vector
+sparsity,sparsity
+spatial pooling,spatial pooling
+split,
+splitter,
+squared hinge loss,squared hinge loss
+squared loss,squared loss
+staged training,
+state,
+state-action value function,
+static,
+static inference,
+stationarity,stationarity
+step,
+step size,
+stochastic gradient descent (SGD),
+stride,
+structural risk minimization (SRM),structural risk, srm
+subsampling,subsampling
+summary,
+supervised machine learning,
+synthetic feature,
+tabular Q-learning,
+target,
+target network,
+temporal data,
+Tensor,tensor
+TensorBoard,TensorBoard
+TensorFlow,TensorFlow
+TensorFlow Playground,
+TensorFlow Serving,TensorFlow
+Tensor Processing Unit (TPU),tpu
+Tensor rank,Tensor
+Tensor shape,
+Tensor size,
+termination condition,
+test,
+test loss,
+test set,
+tf.Example,tf
+tf.keras,keras
+threshold (for decision trees),
+time series analysis,time series analysis
+timestep,
+token,
+tower,
+TPU,TPU
+TPU chip,
+TPU device,
+TPU master,
+TPU node,
+TPU Pod,
+TPU resource,
+TPU slice,
+TPU type,
+TPU worker,
+training,
+training loss,
+training-serving skew,training-serving skew
+training set,
+trajectory,
+transfer learning,transfer learning
+Transformer,Transformer
+translational invariance,translational invariance
+trigram,trigram
+true negative (TN),true negative, tn
+true positive (TP),true positive, tp
+true positive rate (TPR),
+unawareness (to a sensitive attribute),
+underfitting,underfitting
+undersampling,undersampling
+unidirectional,unidirectional
+unidirectional language model,unidirectional language model
+unlabeled example,
+unsupervised machine learning,unsupervised machine learning, machine learning
+uplift modeling,uplift modeling
+upweighting,upweighting
+user matrix,
+validation,
+validation loss,
+validation set,
+vanishing gradient problem,vanishing gradient
+variable importances,
+Wasserstein loss,Wasserstein
+weight,
+Weighted Alternating Least Squares (WALS),WALS
+weighted sum,weighted sum
+wide model,
+width,
+wisdom of the crowd,
+word embedding,
+Z-score normalization,z-score

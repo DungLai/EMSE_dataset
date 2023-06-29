@@ -1,0 +1,161 @@
+# Copyright 2020 NeuroData (http://neurodata.io)
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+import numpy as np
+from functools import partial
+from sklearn.utils import check_array
+
+from .base import BaseAlign
+
+
+class SignFlips(BaseAlign):
+    """
+    Parameters
+    ----------
+        freeze_Y : boolean, optional (default False)
+            For any two datasets X and Y, both of dimensions of d, there are
+            2^d ways to bring their median / max signs to same orthant (one
+            for each orthant). This flag chooses between one of the two options
+            of how to pick such orthant.
+
+            - True
+                Acts only on matrix X (i.e. enforces Q_Y=I). In other words,
+                changes the signs of X such that medians / maxes of all
+                dimensions of X will match those of Y
+            - False
+                Makes medians / maxes of each dimension of both X and Y
+                positive. In other words, brings the median / max of each
+                dimension to the first orthant. Since in this case, choice of
+                Q_X is independent of Y, it is not necessary to provide Y to
+                fit at all.
+
+        criteria : string, {'median' (default), 'max'}
+            String describing the criteria used to choose whether to flip
+            signs. Two options are currently supported:
+
+            - 'median'
+                uses the median along each dimension
+            - 'max'
+                uses the max (in magintude) alongs each dimension
+
+    Attributes
+    ----------
+        Q_X : array, size (d, d)
+              final diagonal orthogonal matrix, used to modify X
+
+        Q_Y : array, size (d, d)
+              final diagonal orthogonal matrix, used to modify Y
+
+    """
+
+    def __init__(
+        self,
+        freeze_Y=True,
+        criteria="median",
+    ):
+
+        if type(criteria) is not str:
+            raise TypeError("criteria must be str")
+        if criteria not in ["median", "max"]:
+            raise ValueError("{} is not a valid criteria.".format(criteria))
+
+        super().__init__(freeze_Y=freeze_Y)
+
+        self.criteria = criteria
+
+    def set_criteria_function(self):
+        # perform a check, in case it was modified directly
+        if self.criteria not in ["median", "max"]:
+            raise ValueError("{} is not a valid criteria".format(self.criteria))
+
+        if self.criteria == "median":
+
+            def median_criteria(X):
+                return np.median(X, axis=0)
+
+            self.criteria_function_ = median_criteria
+        if self.criteria == "max":
+
+            def max_criteria(X):
+                return X[np.argmax(np.abs(X), axis=0), np.arange(X.shape[1])]
+
+            self.criteria_function_ = max_criteria
+
+    def fit(self, X, Y=None):
+        # perform checks
+        self.set_criteria_function()
+        X = check_array(X, accept_sparse=True, copy=True)
+        _, d = X.shape
+
+        if Y is None:
+            if self.freeze_Y:
+                msg = (
+                    "if freeze_Y=True, dataset X is matched to dataset Y. "
+                    "hence, Y cannot be None. provide Y! (or set freeze_Y "
+                    "to False, if you want to bring X to first orthant."
+                )
+                raise ValueError(msg)
+            # make Y an identity as a filler so that we can use two matrix code
+            Y = np.eye(d)
+
+        Y = check_array(Y, accept_sparse=True, copy=True)
+        if X.shape[1] != Y.shape[1]:
+            msg = "two datasets have different number of components!"
+            raise ValueError(msg)
+
+        X_criterias = self.criteria_function_(X)
+        Y_criterias = self.criteria_function_(Y)
+
+        if self.freeze_Y:
+            val = np.multiply(X_criterias, Y_criterias)
+            t_X = (val > 0) * 2 - 1
+            t_Y = np.ones(d)
+        else:
+            t_X = np.sign(X_criterias).astype(int)
+            t_Y = np.sign(Y_criterias).astype(int)
+
+        self.Q_X, self.Q_Y = np.diag(t_X), np.diag(t_Y)
+        return self
+
+    def fit_transform(self, X, Y=None):
+        """
+        Learns the matrices Q_X and Q_Y, uses them to match the two datasets
+        provided, and returns the two matched datasets.
+
+        Parameters
+        ----------
+        X: np.ndarray, shape (n, d)
+            First dataset of vectors. These vectors need to have same number of
+            dimensions as ones in Y, but the number of vectors can differ.
+
+        Y: np.ndarray, shape (m, d), or None
+            Second dataset of vectors. These vectors need to have same number
+            of dimensions as ones in X, but the number of vectors can differ.
+            If freeze_Y is set to False, then it is appropriate to omit this,
+            because X will just have all dimensions sign flipped to the first
+            orthant anyway.
+
+        Returns
+        -------
+        X_prime: np.ndarray, shape (n, d)
+            First dataset of vectors, matched to second. Equal to X @ self.Q_X.
+
+        Y_prime: np.ndarray, shape (m, d)
+            Second dataset of vectors, matched to first. Equal to X @ self.Q_Y.
+            Unless Y was not provided - in that case only returns X_prime.
+        """
+        # SignFlips has an overloaded fit_transform, because unlike all other
+        # aligners, it is sometimes appropriate to omit Y.
+        self.fit(X, Y)
+        return self.transform(X, Y)
