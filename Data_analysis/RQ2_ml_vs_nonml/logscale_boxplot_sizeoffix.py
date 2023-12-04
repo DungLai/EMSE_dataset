@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Read the data from CSV file
-df = pd.read_csv('data.csv')
+df = pd.read_csv('data_codechurnsplus.csv')
 
 # Set the figure size
 plt.figure(figsize=(8, 6))

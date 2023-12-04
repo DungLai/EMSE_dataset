@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the data
-df = pd.read_csv('data.csv')
+df = pd.read_csv('data_codechurnsplus.csv')
 
 # Filter the data by category
 ml_df = df[df['Category'] == 'ml']
@@ -18,6 +18,12 @@ non_ml_fix_duration_mean = non_ml_df['Fix duration'].mean()
 non_ml_fix_duration_median = non_ml_df['Fix duration'].median()
 non_ml_size_of_fix_mean = non_ml_df['Size of fix'].mean()
 non_ml_size_of_fix_median = non_ml_df['Size of fix'].median()
+
+print(ml_size_of_fix_mean)
+print(ml_size_of_fix_median)
+print(non_ml_size_of_fix_mean)
+print(non_ml_size_of_fix_median)
+
 
 # Create bar charts of the mean and median statistics for each category
 fix_duration_means = [ml_fix_duration_mean, non_ml_fix_duration_mean]

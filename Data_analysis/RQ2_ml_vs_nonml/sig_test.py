@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = pd.read_csv("data.csv")
+data = pd.read_csv("data_codechurnsplus.csv")
 ml_data = data[data['Category'] == 'ml']
 non_ml_data = data[data['Category'] == 'non-ml']
 from scipy.stats import mannwhitneyu
